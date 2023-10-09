@@ -1,0 +1,57 @@
+.footerBg{
+    background-color: #1F242C;
+}
+.footerInstaLink{
+    font-size: 16px;
+    color: #fff;
+    font-family: var(--font-josefin) !important;
+    transition: color 0.5s ease;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.footerInstaLink:hover{
+    color: #E1B168;
+}
+.footerContent{
+    color: #fff;
+}
+.footerContent h4{
+    font-family: var(--font-josefin) !important;
+    text-transform: uppercase;
+    letter-spacing: 3.704px;
+    text-decoration: underline;
+    position: relative;
+    text-underline-offset: 5px;
+    text-decoration-color: #E1B168;
+    font-size: 15px;
+    width: max-content;
+}
+.footerContent h4::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #E1B168;
+}
+.footerContent p{
+    font-family: var(--font-josefin) !important;
+}
+.footerContent input{
+    background-color: transparent;
+    border: solid 1px #fff;
+    font-family: var(--font-josefin) !important;
+    color: #fff;
+}
+.footerContent button{
+    background-color: #fff;
+    border: solid 1px #fff;
+    font-family: var(--font-josefin) !important;
+    transition: background-color 0.5s ease;
+}
+.footerContent button:hover{
+    background-color: #E1B168;
+}
+.footerContent input:focus{
+    outline: none !important;
+}
