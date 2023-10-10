@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdPhoneAndroid } from "react-icons/md";
 import SocialMedia from '@/components/nav_components/SocialMedia';
+import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 
 
 
@@ -16,15 +17,15 @@ const Contact = () => {
                             <h2 className='my-4'>Contact Us</h2>
                             </div>
               </div>
-          <div className="row">
-                <div className="col-12 col-lg-6 " >
+          <div className="row  ">
+                <div className="col-12 col-lg-6 justify-content-center " >
                         
                         <h2>Contact Information</h2>
                         <p>Bring the table winwin survival strategies ensure<br/> 
                           proactive domination the end of the day<br/>  
                           going real times multiple touchpoints.</p>
                 
-                          <div className="icon-container">
+                          
 
                         <Link href="#" className={`${styles.svgLink} `}>
                         
@@ -41,7 +42,7 @@ const Contact = () => {
                         </svg>
                         </Link>     
                               <p>Riverside 25, San Francisco, California</p>
-                          </div>    
+                             
 
                           
                             <p>evamattew@mail.com</p>
@@ -52,7 +53,41 @@ const Contact = () => {
           
           
                 <div className="col-12 col-lg-6" >
-
+                <div className="contact-form">
+              <hr/><p>MAIL US</p><hr/>
+              
+                <h1>Have a Question?</h1>
+                <Form>
+                  <Row>
+                    <Col>
+                      <Form.Group controlId="formName">
+                        <Form.Control type="text" placeholder="Name" />
+                      </Form.Group>
+                    </Col>
+                    <Col>
+                      <Form.Group controlId="formEmail">
+                        <Form.Control type="email" placeholder="Email" />
+                      </Form.Group>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      <Form.Group controlId="formSubject">
+                        <Form.Control type="text" placeholder="Subject" />
+                      </Form.Group>
+                    </Col>
+                    <Col>
+                      <Form.Group controlId="formPhone">
+                        <Form.Control type="text" placeholder="Phone" />
+                      </Form.Group>
+                    </Col>
+                  </Row>
+                  <Form.Group controlId="formMessage">
+                    <Form.Control as="textarea" rows={3} placeholder="Message" />
+                  </Form.Group>
+                  <Button variant="warning" type="submit">Send</Button>
+                </Form>
+              </div>
                 </div>
           
           </div>  
