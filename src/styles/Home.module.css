@@ -632,6 +632,90 @@ width: 50% !important;
   width: 100% !important;
   } */
 }
+
+/*contact us */
+
+.customBackground {
+  background-color: #f7f2e9;
+  padding: 30px;
+  width: 40%;
+  height: 100%;
+  margin: 10px;
+}
+.customBackground p{
+  font-family: 'JosefinSans-Bold';
+  color: #555555;
+
+}
+
+.customBackground2 input[type="text"],
+.customBackground2 input[type="email"],
+.customBackground2 textarea {
+  border: 2px solid rgb(204, 199, 199); 
+  padding: 10px; 
+  border-radius: 0%;
+  margin-bottom: 10px;
+  height: 100%;
+  width:100%; 
+
+}
+
+.customBackground2 input[type="text"]::placeholder,
+.customBackground2 input[type="email"]::placeholder,
+.customBackground2 textarea::placeholder {
+  color: #292e36;
+  
+}
+
+.customBackground2 button {
+  border: 2px solid #e1b168; 
+  background-color: transparent; 
+  color: black; 
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 0%;
+}
+
+.customBackground2 button:hover {
+  background-color: #e1b168; 
+  color: white; 
+}
+
+.customBackground2 {
+  background-color: white;
+  padding: 30px;
+  width: 50%;
+  height: 100%;
+  margin: 10px;
+  font-family: 'JosefinSans-Bold';
+}
+
+@media (max-width: 768px) {
+  .custom-background {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .customBackground2 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile */
 @media screen and (max-width: 600px) {
   .heroContainer{
