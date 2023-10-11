@@ -19,7 +19,7 @@ const Contact = () => {
                             <h2 className='my-4'>Contact Us</h2>
                             </div>
               </div>
-              <div className="row  ">
+              <div className="row  justify-content-center align-items-center">
                       <div className={` ${styles.customBackground} col-12 col-lg-5 `} >
                         
                       <div className={` ${styles.contactInfo} `}>
