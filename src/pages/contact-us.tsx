@@ -22,36 +22,36 @@ const Contact = () => {
               <div className="row  ">
                       <div className={` ${styles.customBackground} col-12 col-lg-6 align-content-center  `} >
                         
-                      <div className="contact-info">
+                      <div className={` ${styles.contactInfo} `}>
                 <h1>Contact Information</h1>
                 <p>Bring the table winwin survival strategies ensure<br/> 
                    proactive domination the end of the day<br/>  
                    going real times multiple touchpoints.</p>
-                <div className="contact-icons">
-                  <div className="contact-icon">
+                <div className={` ${styles.contactIcons}   `}>
+                  <div className={` ${styles.contactIcon}  `}>
                   <i className="fa fa-map-marker" aria-hidden="true"></i>
                     <p>Riverside 25, San Francisco, California</p>
                   </div>
-                  <div className="contact-icon">
+                  <div className={` ${styles.contactIcon} `}>
                   <i className="fa fa-envelope" aria-hidden="true"></i>
                     <p>evamattew@mail.com</p>
                   </div>
-                  <div className="contact-icon">
+                  <div className={` ${styles.contactIcon}  `}>
                   <i className="fa fa-phone" aria-hidden="true"></i>
                     <p>800-234-567</p>
                   </div>
                 </div>
-                <div className="social-icons">
-                <Button className="social-button">
+                <div className={` ${styles.socialIcons} `}>
+                <Button className={` ${styles.socialButton}  `}>
                   <FaInstagram />
                 </Button>
-                <Button className="social-button">
+                <Button className={` ${styles.socialButton} `}>
                   <FaFacebook />
                 </Button>
-                <Button className="social-button">
+                <Button className={` ${styles.socialButton}  `}>
                   <FaTwitter />
                 </Button>
-                <Button className="social-button">
+                <Button className={` ${styles.socialButton} `}>
                   <FaPinterest />
                 </Button>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                     </div>
           
           
-                <div className={`col ${styles.customBackground2}`} >
+                <div className={` ${styles.customBackground2} col-12 col-lg-6`} >
                     <div className="contact-form">
                       <p>MAIL US</p>
                       
