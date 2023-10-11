@@ -637,15 +637,19 @@ width: 50% !important;
 
 .customBackground {
   background-color: #f7f2e9;
-  padding: 30px;
+  padding: 50px;
   width: 40%;
   height: 100%;
-  margin: 10px;
+  margin: 30px;
+  justify-content: center;
+
 }
 .customBackground p{
   font-family: var(--font-josefin);
-  font-size:medium;
+  font-size:small;
   color: #555555;
+  justify-content: center;
+
 
 }
 
@@ -654,16 +658,18 @@ width: 50% !important;
   
 }
 
-.contactInfo h2 {
+.contactInfo h1 {
   color: #292e36;
-  font-size: 38px;
+  font-size: 25px;
+  font-family: var(--font-cormorant) !important;
+  font-weight: bold;
   
 
-  
 }
 
 .contactInfo p {
   color: #292e36;
+
  
 }
 
@@ -726,10 +732,11 @@ width: 50% !important;
 .customBackground2 input[type="text"],
 .customBackground2 input[type="email"],
 .customBackground2 textarea {
-  border: 2px solid rgb(204, 199, 199); 
+  border: 1px thin rgb(204, 199, 199); 
   padding: 10px; 
   border-radius: 0%;
   margin-bottom: 10px;
+  margin-left: 0px;
   height: 100%;
   width:100%; 
 
@@ -739,6 +746,7 @@ width: 50% !important;
 .customBackground2 input[type="email"]::placeholder,
 .customBackground2 textarea::placeholder {
   color: #292e36;
+  border: 1px;
   
 }
 
@@ -749,6 +757,11 @@ width: 50% !important;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 0%;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 20%;
+  width: 25%
+
 }
 
 .customBackground2 button:hover {
@@ -758,15 +771,24 @@ width: 50% !important;
 
 .customBackground2 {
   background-color: white;
-  padding: 30px;
+  padding: 1%;
   width: 50%;
   height: 100%;
   margin: 10px;
+  font-family: var(--font-josefin);
+
   
 }
 
+.customBackground2 h1 {
+  color: #292e36;
+  font-size: 27px;
+  font-family: var(--font-cormorant) !important;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
-  .custom-background {
+  .customBackground {
     width: 100%;
     height: 100%;
   }
@@ -774,6 +796,8 @@ width: 50% !important;
   .customBackground2 {
     width: 100%;
     height: 100%;
+    
+
   }
 }
 

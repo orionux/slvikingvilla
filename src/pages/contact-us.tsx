@@ -20,7 +20,7 @@ const Contact = () => {
                             </div>
               </div>
               <div className="row  ">
-                      <div className={` ${styles.customBackground} col-12 col-lg-6 align-content-center  `} >
+                      <div className={` ${styles.customBackground} col-12 col-lg-5 `} >
                         
                       <div className={` ${styles.contactInfo} `}>
                 <h1>Contact Information</h1>
@@ -61,9 +61,9 @@ const Contact = () => {
                     </div>
           
           
-                <div className={` ${styles.customBackground2} col-12 col-lg-6`} >
+                <div className={` ${styles.customBackground2} col-12 col-lg-7`} >
                     <div className="contact-form">
-                      <p>MAIL US</p>
+                      <p className="my-4">MAIL US</p>
                       
                         <h1>Have a Question?</h1>
                         <Form>
