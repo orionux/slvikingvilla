@@ -7,6 +7,9 @@ import SocialMedia from '@/components/nav_components/SocialMedia';
 import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 import { FaInstagram, FaFacebook, FaTwitter, FaPinterest } from 'react-icons/fa';
 import 'font-awesome/css/font-awesome.min.css';
+import { HiOutlineLocationMarker } from "react-icons/hi";
+import { AiOutlineMail } from "react-icons/ai";
+import { PiPhoneCall } from "react-icons/pi";
 
 
 
@@ -21,24 +24,35 @@ const Contact = () => {
               </div>
             <Container>
               <div className="row  justify-content-center align-items-center">
-                      <div className={` ${styles.customBackground} col-12 col-lg-4 `} >
+                      <div className={` ${styles.customBackground}`} >
                         
                       <div className={` ${styles.contactInfo} `}>
                 <h1>Contact Information</h1>
-                <p>Bring the table winwin survival strategies ensure<br/> 
-                   proactive domination the end of the day<br/>  
+                <p>Bring the table winwin survival strategies ensure 
+                   proactive domination the end of the day 
                    going real times multiple touchpoints.</p>
                 <div className={` ${styles.contactIcons}   `}>
-                  <div className={` ${styles.contactIcon}  `}>
-                  <i className="fa fa-map-marker" aria-hidden="true"></i>
+                  <div className={` ${styles.contactIcon} `}>
+                  
+                  <div className={`${styles.iconWrappercontact}  d-flex justify-content-center align-items-center`}>
+
+                  <HiOutlineLocationMarker />
+                  </div>
                     <p>Riverside 25, San Francisco, California</p>
                   </div>
                   <div className={` ${styles.contactIcon} `}>
-                  <i className="fa fa-envelope" aria-hidden="true"></i>
+                 
+                  <div className={`${styles.iconWrappercontact} d-flex justify-content-center align-items-center`}>
+
+                  <AiOutlineMail />
+                  </div>
                     <p>evamattew@mail.com</p>
                   </div>
                   <div className={` ${styles.contactIcon}  `}>
-                  <i className="fa fa-phone" aria-hidden="true"></i>
+                  <div className={`${styles.iconWrappercontact} d-flex justify-content-center align-items-center`}>
+
+                  <PiPhoneCall />
+                  </div>
                     <p>800-234-567</p>
                   </div>
                 </div>
@@ -62,9 +76,9 @@ const Contact = () => {
                     </div>
           
           
-                <div className={` ${styles.customBackground2} col-12 col-lg-7`} >
+                <div className={` ${styles.customBackground2}`} >
                     <div className="contact-form">
-                      <p className={`${styles.mb-2}`}>MAIL US</p>
+                    <p className='mb-2'>MAIL US</p>
                       
                         <h1>Have a Question?</h1>
                         <Form>
