@@ -1119,7 +1119,7 @@ width: 50% !important;
     width: 25%;
   }
 
-  .customBackground2 input[type="text"],
+.customBackground2 input[type="text"],
 .customBackground2 input[type="email"] {
   border: 1px thin rgb(204, 199, 199); 
   padding: 5px; 
