@@ -24,7 +24,7 @@ const Contact = () => {
               </div>
             <Container>
               <div className="row  justify-content-center align-items-center">
-                      <div className={` ${styles.customBackground}`} >
+                      <div className={` ${styles.customBackground} `} >
                         
                       <div className={` ${styles.contactInfo} `}>
                 <h1>Contact Information</h1>

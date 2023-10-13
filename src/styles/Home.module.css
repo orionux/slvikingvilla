@@ -834,20 +834,46 @@ width: 50% !important;
   font-size: 20px;
 }
 
-@media (max-width: 768px) {
+
+@media (min-width: 361px ) and (max-width: 768px) {
   .customBackground {
-    width: 100%;
+    width: 90%;
     height: 100%;
-    margin: auto;
+    margin: 5%;
     padding: 10%;
+    
 
   }
 
   .customBackground2 {
-    width: 80%;
+    width: 95%;
     height: 100%;
-    margin-top: 25px;
+    align-items: center;
+    margin: 5%;
+    padding: 10%;
 
+
+  }
+
+  .customBackground2 input[type="text"],
+  .customBackground2 input[type="email"] {
+  
+    padding: 5px; 
+    margin-bottom: 15px;
+    margin-left: 0px;
+    height: 45px;
+    width: 100%; 
+    
+  
+  }
+  .customBackground2 textarea {
+
+    padding: 10px; 
+    margin-bottom: 10px;
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+  
   }
 
   .customBackground2 button {
@@ -856,23 +882,268 @@ width: 50% !important;
 }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 360px ) {
   .customBackground {
     width: 100%;
     height: 100%;
-    margin: auto;
+    margin: 5%;
+    padding: 10%;
+    
+
   }
 
   .customBackground2 {
-    width: 80%;
+    width: 95%;
     height: 100%;
-    margin-top: 25px;
+    align-items: center;
+    margin: 5%;
+    padding: 10%;
+
+
+  }
+
+  .customBackground2 input[type="text"],
+  .customBackground2 input[type="email"] {
+  
+    padding: 5px; 
+    margin-bottom: 15px;
+    margin-left: 0px;
+    height: 45px;
+    width: 100%; 
+    
+  
+  }
+  .customBackground2 textarea {
+
+    padding: 10px; 
+    margin-bottom: 10px;
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+  
+  }
+
+  .customBackground2 button {
+    
+    width: 35%;
+}
+}
+
+@media (min-width: 361px ) and (max-width: 766px) {
+  .customBackground {
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+    padding: 10%;
+    align-items: center;
+    
+
+  }
+
+  .customBackground2 {
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    margin: 5%;
+    padding: 10%;
+
+
+  }
+
+  .customBackground2 input[type="text"],
+  .customBackground2 input[type="email"] {
+  
+    padding: 5px; 
+    margin-bottom: 15px;
+    margin-left: 0px;
+    height: 45px;
+    width: 100%; 
+    
+  
+  }
+  .customBackground2 textarea {
+
+    padding: 10px; 
+    margin-bottom: 10px;
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+  
+  }
+
+  .customBackground2 button {
+    
+    width: 35%;
+}
+}
+
+@media (min-width: 767px ) and (max-width: 768px) {
+  .customBackground {
+    width: 45%;
+    height: 100%;
+    margin: 0;
+    padding: 4%;
+    
+
+
+  }
+  .iconWrappercontact{
+    background-color: #292E36;
+    color: #fff;
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 100%;
+    font-size: 15px;
+  }
+
+  .customBackground2 {
+    width: 50%;
+    height: 100%;
+    margin: 1%;
+    align-items: center;
+    padding: 5%;
+
   }
 
   .customBackground2 button {
     width: 35%;
   }
+
+  .customBackground2 input[type="text"],
+.customBackground2 input[type="email"] {
+  border: 1px thin rgb(204, 199, 199); 
+  padding: 5px; 
+  border-radius: 0%;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  height: 45px;
+  width: 100%; 
+  
+
 }
+.customBackground2 textarea {
+  border: 1px thin rgb(204, 199, 199); 
+  padding: 10px; 
+  border-radius: 0%;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  height: 100%;
+  width: 100%;
+
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .customBackground {
+    width: 47%;
+    height: 100%;
+    margin:0;
+    padding: 4%;
+    
+
+
+  }
+  .iconWrappercontact{
+    background-color: #292E36;
+    color: #fff;
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 100%;
+    font-size: 15px;
+  }
+
+  .customBackground2 {
+    width: 53%;
+    height: 100%;
+    margin-left: 0px;
+    align-items: center;
+    padding: 4%;
+  }
+
+  .customBackground2 button {
+    width: 35%;
+  }
+
+  .customBackground2 input[type="text"],
+.customBackground2 input[type="email"] {
+  border: 1px thin rgb(204, 199, 199); 
+  padding: 5px; 
+  border-radius: 0%;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  height: 45px;
+  width: 100%; 
+  
+
+}
+.customBackground2 textarea {
+  border: 1px thin rgb(204, 199, 199); 
+  padding: 10px; 
+  border-radius: 0%;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  height: 100%;
+  width: 100%;
+
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .customBackground {
+    width: 35%;
+    height: 100%;
+    margin:0;
+    padding: 5%;
+    
+
+
+  }
+  .iconWrappercontact{
+    background-color: #292E36;
+    color: #fff;
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 100%;
+    font-size: 15px;
+  }
+
+  .customBackground2 {
+    width: 60%;
+    height: 100%;
+    margin-left: 0px;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .customBackground2 button {
+    width: 25%;
+  }
+
+  .customBackground2 input[type="text"],
+.customBackground2 input[type="email"] {
+  border: 1px thin rgb(204, 199, 199); 
+  padding: 5px; 
+  border-radius: 0%;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  height: 55px;
+  width: 260px; 
+  
+
+}
+.customBackground2 textarea {
+  border: 1px thin rgb(204, 199, 199); 
+  padding: 10px; 
+  border-radius: 0%;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  height: 130px;
+  width: 100%;
+
+}
+}
+
+
 
 
 
