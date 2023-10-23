@@ -1,12 +1,14 @@
 import React from 'react';
-import styles from "../styles/Home.module.css";
+import { render } from "react-dom";
 
 
 
 
-const Calendar = () => {
+
+const Calendr = () => {
     return (
-        <div style={{ backgroundColor: "#B9983B" }}>
+        <div style={{ backgroundColor: "#B9983B" }}
+        className='col-12 col-lg-11'>
         <h1>
             hisgrdgsdggsgsdfgfdfgdfgfhbszdhtzstjsznfb xdfcnxdfnsztjhnzfgn tzdftnzadfnazedn
         </h1>
@@ -15,4 +17,4 @@ const Calendar = () => {
     )
 }
 
-export default Calendar;
+export default Calendr;

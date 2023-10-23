@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { MdPhoneAndroid } from "react-icons/md";
-import Calendar from "../components/calendar";
+import Calendr from "../components/calendr";
 
 
 const Booking = () => {
@@ -77,7 +77,7 @@ const Booking = () => {
           
           
         </div>
-        <Calendar />
+        <Calendr />
           </div>
           
         </div>
