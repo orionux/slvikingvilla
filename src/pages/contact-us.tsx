@@ -23,8 +23,8 @@ const Contact = () => {
                             </div>
               </div>
             <Container>
-              <div className="row  justify-content-center align-items-center">
-                      <div className={` ${styles.customBackground} `} >
+              <div className="d-flex flex-column flex-md-row  "> 
+                      <div className={` ${styles.customBackground} col-12 col-sm-12 col-md-5 col-lg-5 px-5 py-5 my-10  d-flex  justify-content-lg-start justify-content-sm-center `} >
                         
                       <div className={` ${styles.contactInfo} `}>
                 <h1>Contact Information</h1>
@@ -76,7 +76,7 @@ const Contact = () => {
                     </div>
           
           
-                <div className={` ${styles.customBackground2}`} >
+                <div className={` ${styles.customBackground2} col-12 col-sm-12 col-md-7 col-lg-7 px-5 py-5 my-10  d-flex justify-content-lg-end justify-content-sm-center `} >
                     <div className="contact-form">
                     <p className='mb-2'>MAIL US</p>
                       
@@ -114,7 +114,7 @@ const Contact = () => {
                         </div>
                    
                   </div>
-                  </div>
+              </div>
               </Container>  
             
           
