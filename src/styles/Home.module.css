@@ -636,12 +636,12 @@ width: 50% !important;
 /*contact us */
 
 .customBackground {
-  background-color: #FFF8F5;
+  background-color: #eaad93;
   
 }
 .customBackground p{
   font-family: var(--font-josefin);
-  font-size:small;
+  font-size: 15px;
   color: #555555;
   justify-content: center;
 
@@ -655,7 +655,7 @@ width: 50% !important;
 
 .contactInfo h1 {
   color: #292e36;
-  font-size: 26px;
+  font-size: 30px;
   font-family: var(--font-cormorant) !important;
   font-weight: bold;
   
@@ -782,7 +782,7 @@ width: 50% !important;
 
 .customBackground2 h1 {
   color: #292e36;
-  font-size: 27px;
+  font-size: 30px;
   font-family: var(--font-cormorant) !important;
   font-weight: bold;
 }
@@ -796,7 +796,7 @@ width: 50% !important;
   color: #292E36;
   text-decoration-color: #E1B168;
   text-decoration-thickness: 1px;
-  font-size: 12px;
+  font-size: 15px;
   width: max-content;
 }
 .customBackground2 p::before {
@@ -815,6 +815,29 @@ width: 50% !important;
   height: 30px !important;
   border-radius: 100%;
   font-size: 20px;
+}
+
+@media (max-width: 360px ) {
+
+  .customBackground p{
+    font-size: 12px;
+  }
+
+  .customBackground h1{
+    font-size: 25px;
+  }
+
+  .iconWrappercontact{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+  }
+
+  .reicons{
+    font-size: 15px;
+  }
+
+
 }
 
 

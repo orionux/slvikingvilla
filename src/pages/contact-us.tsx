@@ -23,8 +23,8 @@ const Contact = () => {
                             </div>
               </div>
             <Container>
-              <div className="d-flex flex-column flex-md-row  "> 
-                      <div className={` ${styles.customBackground} col-12 col-sm-12 col-md-5 col-lg-5 px-5 py-5 my-10  d-flex  justify-content-lg-start justify-content-sm-center `} >
+              <div className="d-flex flex-column flex-md-row my-5 "> 
+                      <div className={` ${styles.customBackground} col-12 col-md-5 col-lg-5 px-5 pt-5  d-flex  justify-content-center `} >
                         
                       <div className={` ${styles.contactInfo} `}>
                 <h1>Contact Information</h1>
@@ -33,10 +33,10 @@ const Contact = () => {
                    going real times multiple touchpoints.</p>
                 <div className={` ${styles.contactIcons}   `}>
                   <div className={` ${styles.contactIcon} `}>
-                  
-                  <div className={`${styles.iconWrappercontact}  d-flex justify-content-center align-items-center`}>
+                   
+                  <div className={`${styles.iconWrappercontact} d-flex justify-content-center align-items-center`}>
 
-                  <HiOutlineLocationMarker />
+                  <HiOutlineLocationMarker className={` ${styles.reicons}`} />
                   </div>
                     <p>Riverside 25, San Francisco, California</p>
                   </div>
@@ -44,14 +44,14 @@ const Contact = () => {
                  
                   <div className={`${styles.iconWrappercontact} d-flex justify-content-center align-items-center`}>
 
-                  <AiOutlineMail />
+                  <AiOutlineMail className={` ${styles.reicons}`} />
                   </div>
                     <p>evamattew@mail.com</p>
                   </div>
                   <div className={` ${styles.contactIcon}  `}>
                   <div className={`${styles.iconWrappercontact} d-flex justify-content-center align-items-center`}>
 
-                  <PiPhoneCall />
+                  <PiPhoneCall className={` ${styles.reicons}`} />
                   </div>
                     <p>800-234-567</p>
                   </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                     </div>
           
           
-                <div className={` ${styles.customBackground2} col-12 col-sm-12 col-md-7 col-lg-7 px-5 py-5 my-10  d-flex justify-content-lg-end justify-content-sm-center `} >
+                <div className={` ${styles.customBackground2} col-12 col-md-7 col-lg-7 px-5 pt-5 pb-2  d-flex justify-content-center `} >
                     <div className="contact-form">
                     <p className='mb-2'>MAIL US</p>
                       
@@ -109,7 +109,7 @@ const Contact = () => {
                           <Form.Group controlId="formMessage">
                             <Form.Control as="textarea" rows={3} placeholder="Message" />
                           </Form.Group>
-                          <Button variant="warning" type="submit">Send</Button>
+                          <Button variant="warning" type="submit" className='w-xm-50'>Send</Button>
                         </Form>
                         </div>
                    
