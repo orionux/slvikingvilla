@@ -820,7 +820,7 @@ width: 50% !important;
 @media (max-width: 360px ) {
 
   .customBackground p{
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .customBackground h1{
@@ -837,6 +837,28 @@ width: 50% !important;
     font-size: 15px;
   }
 
+
+}
+
+@media (min-width: 768px ) and (max-width:991px) {
+
+  .customBackground p{
+    font-size: 13px;
+  }
+
+  .customBackground h1{
+    font-size: 30px;
+  }
+
+  .iconWrappercontact{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+  }
+
+  .reicons{
+    font-size: 20px;
+  }
 
 }
 

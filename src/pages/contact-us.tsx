@@ -24,15 +24,15 @@ const Contact = () => {
               </div>
             <Container>
               <div className="d-flex flex-column flex-md-row my-5 "> 
-                      <div className={` ${styles.customBackground} col-12 col-md-5 col-lg-5 px-5 pt-5  d-flex  justify-content-center `} >
+                      <div className={` ${styles.customBackground} col-12 col-md-5 col-lg-5 px-1 py-1  d-flex  justify-content-center `} >
                         
-                      <div className={` ${styles.contactInfo} `}>
+                      <div className={` ${styles.contactInfo} px-3 py-3 px-md-5 py-md-5  `}>
                 <h1>Contact Information</h1>
                 <p>Bring the table winwin survival strategies ensure 
                    proactive domination the end of the day 
                    going real times multiple touchpoints.</p>
-                <div className={` ${styles.contactIcons}   `}>
-                  <div className={` ${styles.contactIcon} `}>
+                <div className={` ${styles.contactIcons}  `}>
+                  <div className={` ${styles.contactIcon} d-flex align-items-auto`}>
                    
                   <div className={`${styles.iconWrappercontact} d-flex justify-content-center align-items-center`}>
 
@@ -76,8 +76,8 @@ const Contact = () => {
                     </div>
           
           
-                <div className={` ${styles.customBackground2} col-12 col-md-7 col-lg-7 px-5 pt-5 pb-2  d-flex justify-content-center `} >
-                    <div className="contact-form">
+                <div className={` ${styles.customBackground2} col-12 col-md-7 col-lg-7 px-0 py-5 px-md-4 d-flex justify-content-center `} >
+                    <div className="contact-form px-auto py-auto">
                     <p className='mb-2'>MAIL US</p>
                       
                         <h1>Have a Question?</h1>
@@ -109,7 +109,7 @@ const Contact = () => {
                           <Form.Group controlId="formMessage">
                             <Form.Control as="textarea" rows={3} placeholder="Message" />
                           </Form.Group>
-                          <Button variant="warning" type="submit" className='w-xm-50'>Send</Button>
+                          <Button variant="warning" type="submit" className="w-auto h-auto">Send</Button>
                         </Form>
                         </div>
                    
