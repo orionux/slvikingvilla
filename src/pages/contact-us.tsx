@@ -77,29 +77,32 @@ const Contact = () => {
           
           
                 <div className={` ${styles.customBackground2} col-12 col-md-6 col-lg-7 px-1 py-5 px-md-3 py-md-4 d-flex justify-content-center `} >
-                    <div className="contact-form col-12 ">
+                    <div className="contact-form col-12  ">
                     <p className='mb-2'>MAIL US</p>
                       
-                        <h1>Have a Question?</h1>
+                        <h1 className=''>Have a Question?</h1>
                         <Form>
                         
-                        
+                        <div>  
                           
-                          <div className="form-group d-flex flex-column flex-md-row">
-                              <Form.Control type="text" placeholder="Name" className='m-3' />
-                              <Form.Control type="email" placeholder="Email" className='m-3' />
+                          <div className="form-group d-flex flex-column flex-md-row w-100 ">
+                              <Form.Control type="text" placeholder="Name" className='' />
+                              <Form.Control type="email" placeholder="Email" className='' />
                           </div>
                           
-                          <div className="form-group d-flex flex-column flex-md-row">
-                              <Form.Control type="text" placeholder="Subject" className='m-3' />
-                              <Form.Control type="text" placeholder="Phone" className='m-3' />
+                          <div className="form-group d-flex flex-column flex-md-row w-100">
+                              <Form.Control type="text" placeholder="Subject" className='' />
+                              <Form.Control type="text" placeholder="Phone" className='' />
                           </div>
                           
-                          <div className="form-group d-flex flex-column flex-md-row">
-                              <Form.Control as="textarea" rows={4} placeholder="Message" className='m-3' />
+                          <div className="form-group d-flex flex-column flex-md-row w-100">
+                              <Form.Control as="textarea" rows={4} placeholder="Message" className='' />
                           </div>
-                          <Button variant="warning" type="submit" className="w-auto h-auto m-3">Send</Button>
-                         
+                          <div className="d-flex justify-content-start ">
+                          <Button variant="warning" type="submit" className="px-5 py-2 ">Send</Button>
+                          </div>
+
+                        </div> 
                         </Form>
                         </div>
                    
