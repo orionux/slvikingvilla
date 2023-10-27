@@ -77,39 +77,29 @@ const Contact = () => {
           
           
                 <div className={` ${styles.customBackground2} col-12 col-md-6 col-lg-7 px-1 py-5 px-md-3 py-md-4 d-flex justify-content-center `} >
-                    <div className="contact-form">
+                    <div className="contact-form col-12 ">
                     <p className='mb-2'>MAIL US</p>
                       
                         <h1>Have a Question?</h1>
                         <Form>
-                          <Row>
-                            <Col>
-                              <Form.Group controlId="formName">
-                                <Form.Control type="text" placeholder="Name"/>
-                              </Form.Group>
-                            </Col>
-                            <Col>
-                              <Form.Group controlId="formEmail">
-                                <Form.Control type="email" placeholder="Email"   />
-                              </Form.Group>
-                            </Col>
-                          </Row>
-                          <Row>
-                            <Col>
-                              <Form.Group controlId="formSubject">
-                                <Form.Control type="text" placeholder="Subject"   />
-                              </Form.Group>
-                            </Col>
-                            <Col>
-                              <Form.Group controlId="formPhone">
-                                <Form.Control type="text" placeholder="Phone" />
-                              </Form.Group>
-                            </Col>
-                          </Row>
-                          <Form.Group controlId="formMessage">
-                            <Form.Control as="textarea" rows={3} placeholder="Message" />
-                          </Form.Group>
-                          <Button variant="warning" type="submit" className="w-auto h-auto">Send</Button>
+                        
+                        
+                          
+                          <div className="form-group d-flex flex-column flex-md-row">
+                              <Form.Control type="text" placeholder="Name" className='m-3' />
+                              <Form.Control type="email" placeholder="Email" className='m-3' />
+                          </div>
+                          
+                          <div className="form-group d-flex flex-column flex-md-row">
+                              <Form.Control type="text" placeholder="Subject" className='m-3' />
+                              <Form.Control type="text" placeholder="Phone" className='m-3' />
+                          </div>
+                          
+                          <div className="form-group d-flex flex-column flex-md-row">
+                              <Form.Control as="textarea" rows={4} placeholder="Message" className='m-3' />
+                          </div>
+                          <Button variant="warning" type="submit" className="w-auto h-auto m-3">Send</Button>
+                         
                         </Form>
                         </div>
                    
