@@ -156,8 +156,11 @@
   text-align: justify;
 }
 .BookingBg{
-  background: url('/assests/images/bg/Background.png'), lightgray 50% / cover no-repeat;
+  background: url('/assests/images/bg/Backgroundnew.png'), lightgray 50% / cover no-repeat;
   background-position: center;
+  background-size: cover;
+
+  
 }
 .Abut_sec_3_Bg{
   background: url('/assests/images/bg/abut_bg.png');
@@ -305,7 +308,7 @@
 
 
 .imgGroupWrapper{
-  background: url('/assests/images/bg/img_group_bg.png');
+  background: url('/assests/images/bg/img_group_bgnew.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -385,7 +388,7 @@
 }
 
 .tourWrapperImage{
-  background: url('/assests/images/bg/tour.png');
+  background: url('/assests/images/bg/tournew.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

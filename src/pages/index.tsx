@@ -27,7 +27,7 @@ export default function Home() {
 
             <div className="col-12 col-lg-6 d-flex d-lg-none justify-content-center align-items-center">
               <Image
-                src={"/assests/images/bg/home_bg.png"}
+                src={"/assests/images/bg/home_bgnew.png"}
                 alt=""
                 width={350}
                 height={300}
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <div className="col-12 col-lg-6 d-none d-lg-flex justify-content-end position-relative">
               <Image
-                src={"/assests/images/bg/home_bg.png"}
+                src={"/assests/images/bg/home_bgnew.png"}
                 alt=""
                 width={450}
                 height={400}
@@ -59,7 +59,7 @@ export default function Home() {
                 className={`col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center  px-0 px-md-5 ${styles.borderRight}`}
               >
                 <Image
-                  src={"/assests/images/bg/the_story.png"}
+                  src={"/assests/images/bg/the_storynew.png"}
                   alt=""
                   width={350}
                   height={300}
@@ -255,7 +255,7 @@ export default function Home() {
             <div className="d-flex flex-column flex-lg-row px-0 px-lg-5 pt-0 pt-lg-5">
               <div className="col-12 col-lg-6 pb-lg-0">
                 <Image
-                  src={"/assests/images/bg/luxury_rooms.png"}
+                  src={"/assests/images/bg/luxury_roomsnew.png"}
                   alt=""
                   width={350}
                   height={300}
