@@ -32,13 +32,13 @@ const Contact = () => {
                    proactive domination the end of the day 
                    going real times multiple touchpoints.</p>
                 <div className={` ${styles.contactIcons}  `}>
-                  <div className={` ${styles.contactIcon} d-flex align-items-auto`}>
+                  <div className={` ${styles.contactIcon} d-flex align-items-start`}>
                    
                   <div className={`${styles.iconWrappercontact} d-flex justify-content-center align-items-center`}>
 
                   <HiOutlineLocationMarker className={` ${styles.reicons}`} />
                   </div>
-                    <p>Riverside 25, San Francisco, California</p>
+                    <p>No. 53/2,<br/> Keenagahalanda watta,<br/> Kalagedihena.</p>
                   </div>
                   <div className={` ${styles.contactIcon} `}>
                  
@@ -46,18 +46,23 @@ const Contact = () => {
 
                   <AiOutlineMail className={` ${styles.reicons}`} />
                   </div>
-                    <p>evamattew@mail.com</p>
+                    <p>vikingvillalk@gmail.com</p>
                   </div>
-                  <div className={` ${styles.contactIcon}  `}>
+                  <div className={` ${styles.contactIcon} d-flex align-items-center  `}>
                   <div className={`${styles.iconWrappercontact} d-flex justify-content-center align-items-center`}>
 
                   <PiPhoneCall className={` ${styles.reicons}`} />
                   </div>
-                    <p>800-234-567</p>
+
+                  <div className='d-flex flex-column align-items-center'>
+                    <p className='mb-0'>+94 332295547</p>
+                    <p className='mb-0'>+94 771874534</p>
+                    <p className='mb-0'>+94 741698008</p>
+                  </div>  
                   </div>
                 </div>
                 <div className={` ${styles.socialIcons} `}>
-                <Button className={` ${styles.socialButton}  `}>
+                <Button className={` ${styles.socialButton} `}>
                   <FaInstagram />
                 </Button>
                 <Button className={` ${styles.socialButton} `}>
