@@ -35,7 +35,7 @@ export default function Home() {
               />
             </div>
             <div className="col-12 col-lg-6 px-0 px-md-5 d-flex flex-column justify-content-center align-items-center">
-              <h1 className="text-white font-comorant text-center text-lg-start">Welcome to Viking Villa Resturent</h1>
+              <h1 className="text-white font-comorant text-center text-lg-start">Welcome to Viking Villa Restaurant</h1>
               <p className="text-white font-josefin text-center text-lg-start px-0 px-md-5 px-lg-0">Welcome to a World of Refined Hospitality, Where Unmatched Service Meets Unparalleled Comfort</p>
             </div>
             <div className="col-12 col-lg-6 d-none d-lg-flex justify-content-end position-relative">
@@ -142,14 +142,11 @@ export default function Home() {
                 <div
                   className={`col-12 col-lg-5 px-3 px-md-5 py-5 p-lg-5 d-flex flex-column ${styles.tourWrapper} `}
                 >
-                  <h3>Plan Your Journey</h3>
+                  <h3>Take a rest feel freedom.</h3>
                   <p>
-                    We specialize in helping you plan your trip to Sri Lanka,
-                    ensuring an unforgettable experience. Our team will introduce
-                    you to the best places, arrange reliable transportation, and
-                    make hotel reservations tailored to your preferences. We are
-                    dedicated to making your journey comfortable and joyful, so you
-                    can relax and fully immerse yourself in the beauty of Sri Lanka.
+                  Discover luxury in the heart of Sri Lanka`s central city.
+                   Enjoy our lavish rooms, exquisite dining, and exceptional services. 
+                   Experience comfort, elegance, and unparalleled hospitality with us.
                   </p>
                   <div className="d-flex flex-row">
                     <div className="col-2 d-flex align-items-center">
