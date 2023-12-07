@@ -39,6 +39,81 @@ const PlanTrip = () => {
           <p>We mention most popular routes there, Also you can make your own journey with us.</p>
           </div>
         </div>
+      <div className={`${styles.planTrip} w-100`}>
+        <div className="w-100 text-center px-2 pb-5">
+        <a href="#" className={`${styles.planLink} text-white px-2`}>Plane 01</a>
+        <a href="#" className={`${styles.planLink} text-white px-2`}>Plane 02</a>
+        <a href="#" className={`${styles.planLink} text-white px-2`}>Plane 03</a>
+        </div>
+
+      <div className="col-12 d-flex text-white">
+        <div className="col-3">
+          <h3 className="">Plane 01</h3>
+          <p className="">
+            Embark on a Remarkable Journey of Cultural Fusion and Unmatched Hospitality at
+             the Finest Hotel in Sri Lanka, Owned by a Danish Entrepreneur. Experience the
+              Perfect Blend of Sri Lankan Charm and European Elegance, Where Our Expertise 
+              in Hospitality Creates a Sanctuary of Comfort and Freedom. Welcome to the Epitome
+               of Tranquility, the Most Exquisite and Comfortable Destination in Sri Lanka
+          </p>
+          <Image src={''} alt="logo" width={50} height={50} />
+        </div>
+        <div className="col-5">
+          <div className="d-flex flex-row justify-content-between w-100">
+            <div><p>1st -2nd Days</p></div>
+            <div><p>icon</p></div>
+            <p className="border-2">Airport to Seegiriya</p>
+          </div>
+          <div className="d-flex flex-row justify-content-between w-100">
+            <div><p>3rd Day</p></div>
+            <div><p>icon</p></div>
+            <p className="border-2">Seegiriya To Kandy</p>
+          </div>
+          <div className="d-flex flex-row justify-content-between w-100">
+            <div><p>4th Day</p></div>
+            <div><p>icon</p></div>
+            <p className="border-2">Kandy To Nuwara Eliya</p>
+          </div>
+          <div className="d-flex flex-row justify-content-between w-100">
+            <div><p>5th Day</p></div>
+            <div><p>icon</p></div>
+            <p className="border-2">Nuwara Eliya To Ella</p>
+          </div>
+          <div className="d-flex flex-row justify-content-between w-100">
+            <div><p>6th Day</p></div>
+            <div><p>icon</p></div>
+            <p className="border-2">Ella to Mathara or Galle</p>
+          </div>
+          <div className="d-flex flex-row justify-content-between w-100">
+            <div><p>7th Day</p></div>
+            <div><p>icon</p></div>
+            <p className="border-2">Galle or Mathara to Airport</p>
+          </div>
+          <div className="row"></div>
+          <div className="row"></div>
+          <div className="row"></div>
+          <div className="row"></div>
+          <div className="row"></div>
+          
+          
+        </div>
+        <div className="col-3">
+          <div className="position-relative">
+          <Image src={'/assests/images/PlanTrip/mapback.png'} alt="" width={250} height={250} />
+          <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="position-absolute top-0 end-0" alt="" width={250} height={500} />
+          </div>
+        
+        
+        </div>
+
+
+
+
+      </div>
+
+
+
+      </div>
         <div
           className={`d-flex pb-5 bg-white w-100 justify-content-center align-items-center ${styles.availability_plan}`}
         >
