@@ -169,7 +169,7 @@
   background-size: cover;
 }
 .Abut_form_sec_Bg{
-  background: url('/assests/images/bg/abt_last_sec_bg.png');
+  background: url('/assests/images/bg/bookur.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,7 +308,7 @@
 
 
 .imgGroupWrapper{
-  background: url('/assests/images/bg/img_group_bgnew.png');
+  background: url('/assests/images/bg/tourplanning.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -388,7 +388,7 @@
 }
 
 .tourWrapperImage{
-  background: url('/assests/images/bg/tournew.png');
+  background: url('/assests/images/bg/takearest.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

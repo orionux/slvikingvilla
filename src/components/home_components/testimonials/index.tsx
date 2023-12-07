@@ -17,42 +17,42 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      image: "/assests/images/testimonials/testimonial1.jpg",
+      image: "/assests/images/testimonials/voorden.png",
       name: "Daniyal Sppra",
       address: "Newyork",
       desc: `"It is professional, considers everyone&apos;s time, can think about the  There are many variations of passages whole probls small niche, friendly."`
     },
     {
       id: 3,
-      image: "/assests/images/testimonials/testimonial2.jpg",
+      image: "/assests/images/testimonials/yayomi.png",
       name: "Jack Sparrow",
       address: "San Diego",
       desc: `"It is professional, considers everyone's time, can think about the  There are many  passages whole probls small niche, friendly."`
     },
     {
       id: 3,
-      image: "/assests/images/testimonials/testimonial3.jpg",
+      image: "/assests/images/testimonials/sabiq.png",
       name: "Natasha D",
       address: "Salt Lake City",
       desc: `"It is professional, considers everyone's time, can think about the  There are many variations of passages."`
     },
     {
       id: 4,
-      image: "/assests/images/testimonials/testimonial1.jpg",
+      image: "/assests/images/testimonials/voorden.png",
       name: "Daniyal Sppra",
       address: "Newyork",
       desc: `"It is professional, considers everyone&apos;s time, can think about the  There are many variations of passages whole probls small niche, friendly."`
     },
     {
       id: 5,
-      image: "/assests/images/testimonials/testimonial2.jpg",
+      image: "/assests/images/testimonials/yayomi.png",
       name: "Jack Sparrow",
       address: "San Diego",
       desc: `"It is professional, considers everyone's time, can think about the  There are many  passages whole probls small niche, friendly."`
     },
     {
       id: 6,
-      image: "/assests/images/testimonials/testimonial3.jpg",
+      image: "/assests/images/testimonials/sabiq.png",
       name: "Natasha D",
       address: "Salt Lake City",
       desc: `"It is professional, considers everyone's time, can think about the  There are many variations of passages."`

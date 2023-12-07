@@ -88,39 +88,49 @@ const Booking = () => {
             <div className={`d-flex flex-column flex-lg-row p-0 m-0 px-lg-2 w-100 text-center`}>
               <div className={`col-12 col-md-6 col-lg-3 pe-1 ${styles.gallery_sec_height} ${styles.column_small}`}>
               <Image
-                  src={"/assests/images/gallery/1.jpg"}
+                  src={"/assests/images/gallery/whatwemake1.png"}
                   alt=""
                   width={200}
                   height={180}
                   className={`img-fluid ${styles.team_image} mb-2`}
                 />
                 <Image
-                  src={"/assests/images/gallery/2.jpg"}
+                  src={"/assests/images/gallery/whatwemake2.png"}
                   alt=""
                   width={200}
                   height={180}
                   className={`img-fluid ${styles.team_image}`}
                 />
               </div>
-              <div className={`col-12 col-md-6 col-lg-6 p-1 ${styles.gallery_sec_height} ${styles.column_lg}`}>
+              <div className={`col-12 col-md-6 col-lg-6 p-1 position-relative ${styles.gallery_sec_height} ${styles.column_lg}`}>
               <Image
-                  src={"/assests/images/gallery/cropped.png"}
+                  src={"/assests/images/gallery/whatwemake3.png"}
                   alt=""
                   width={350}
                   height={300}
                   className={`img-fluid ${styles.team_image} mb-2`}
                 />
+                <div className='position-absolute top-50 start-50' >
+                <Image
+                      src={"/assests/images/icons/villawhite.png"}
+                      alt=""
+                      width={220}
+                      height={60}
+                      className={`img-fluid`}
+                    />
+
+                </div>
               </div>
               <div className={`col-12 col-md-6 col-lg-3 ps-1 ${styles.gallery_sec_height} ${styles.column_small}`}>
               <Image
-                  src={"/assests/images/gallery/4.jpg"}
+                  src={"/assests/images/gallery/whatwemake4.png"}
                   alt=""
                   width={200}
                   height={180}
                   className={`img-fluid ${styles.team_image} mb-2`}
                 />
                 <Image
-                  src={"/assests/images/gallery/5.jpg"}
+                  src={"/assests/images/gallery/whatwemake5.png"}
                   alt=""
                   width={200}
                   height={180}

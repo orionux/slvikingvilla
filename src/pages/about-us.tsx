@@ -54,16 +54,26 @@ const AboutUs = () => {
               className={`col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center  px-0 px-md-5 position-relative`}
             >
               <Image
-                src={"/assests/images/bg/about-sec-1.png"}
+                src={"/assests/images/bg/aboutquality.png"}
                 alt=""
                 width={350}
                 height={300}
                 className={`${styles.imgStory}`}
               />
               <div
-                className="d-flex bg-white flex-column position-absolute pe-4 pt-4"
+                className="d-flex bg-white flex-column position-absolute pe-4 pt-4 bg-transparent"
                 style={{ left: 0, bottom: 0 }}
               >
+
+                    <Image
+                      src={"/assests/images/icons/villablack.png"}
+                      alt=""
+                      width={220}
+                      height={100}
+                      className={`img-fluid ${styles.ceo_img}`}
+                    />
+
+                {/*
                 <div className="d-flex flex-row">
                   <div className="col-3 me-2 d-flex flex-column justify-content-center">
                     <Image
@@ -110,7 +120,8 @@ const AboutUs = () => {
                     d="M109.768 16.3238C109.645 16.3243 109.526 16.2868 109.427 16.2166L104.756 12.8849L100.085 16.2166C99.9852 16.2878 99.865 16.326 99.7417 16.3255C99.6184 16.3251 99.4985 16.2861 99.3992 16.2142C99.3 16.1423 99.2265 16.0411 99.1895 15.9254C99.1525 15.8097 99.1539 15.6855 99.1934 15.5706L101.015 10.2617L96.2937 7.07615C96.1914 7.00723 96.1143 6.90793 96.0734 6.79277C96.0326 6.67761 96.0303 6.55263 96.0668 6.43608C96.1033 6.31952 96.1767 6.21751 96.2764 6.14495C96.376 6.07239 96.4966 6.03307 96.6206 6.03275H102.445L104.203 0.710335C104.241 0.595426 104.315 0.495271 104.414 0.424237C104.513 0.353203 104.633 0.314941 104.756 0.314941C104.879 0.314941 104.998 0.353203 105.098 0.424237C105.197 0.495271 105.271 0.595426 105.309 0.710335L107.066 6.03454H112.891C113.015 6.03448 113.136 6.07352 113.236 6.14594C113.336 6.21837 113.41 6.32037 113.447 6.43701C113.483 6.55365 113.481 6.6788 113.44 6.79414C113.4 6.90947 113.322 7.00893 113.22 7.07794L108.497 10.2617L110.317 15.5691C110.347 15.6551 110.355 15.7467 110.342 15.8364C110.328 15.9261 110.293 16.0113 110.239 16.0851C110.185 16.1588 110.115 16.2189 110.033 16.2604C109.951 16.3019 109.86 16.3237 109.768 16.3238Z"
                     fill="#E1B168"
                   />
-                </svg>
+                </svg> 
+                */}
               </div>
             </div>
           </div>
@@ -249,14 +260,14 @@ const AboutUs = () => {
                 className={`col-12 col-md-6 col-lg-3 pe-1 ${styles.gallery_sec_height} ${styles.column_small}`}
               >
                 <Image
-                  src={"/assests/images/gallery/1.jpg"}
+                  src={"/assests/images/gallery/whatwemake1.png"}
                   alt=""
                   width={200}
                   height={180}
                   className={`img-fluid ${styles.team_image} mb-2`}
                 />
                 <Image
-                  src={"/assests/images/gallery/2.jpg"}
+                  src={"/assests/images/gallery/whatwemake2.png"}
                   alt=""
                   width={200}
                   height={180}
@@ -267,7 +278,7 @@ const AboutUs = () => {
                 className={`col-12 col-md-6 col-lg-6 p-1 ${styles.gallery_sec_height} ${styles.column_lg}`}
               >
                 <Image
-                  src={"/assests/images/gallery/cropped.png"}
+                  src={"/assests/images/gallery/whatwemake3.png"}
                   alt=""
                   width={350}
                   height={300}
@@ -278,14 +289,14 @@ const AboutUs = () => {
                 className={`col-12 col-md-6 col-lg-3 ps-1 ${styles.gallery_sec_height} ${styles.column_small}`}
               >
                 <Image
-                  src={"/assests/images/gallery/4.jpg"}
+                  src={"/assests/images/gallery/whatwemake4.png"}
                   alt=""
                   width={200}
                   height={180}
                   className={`img-fluid ${styles.team_image} mb-2`}
                 />
                 <Image
-                  src={"/assests/images/gallery/5.jpg"}
+                  src={"/assests/images/gallery/whatwemake5.png"}
                   alt=""
                   width={200}
                   height={180}
