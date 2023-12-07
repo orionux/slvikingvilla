@@ -28,9 +28,9 @@ const Contact = () => {
                         
                       <div className={` ${styles.contactInfo} px-3 py-3 px-md-4 py-md-5 `}>
                 <h1>Contact Information</h1>
-                <p>Bring the table winwin survival strategies ensure 
+                <p>Bring the table winwin survival strategies ensure<br/> 
                    proactive domination the end of the day 
-                   going real times multiple touchpoints.</p>
+                   going<br/> real times multiple touchpoints.</p>
                 <div className={` ${styles.contactIcons}  `}>
                   <div className={` ${styles.contactIcon} d-flex align-items-start`}>
                    

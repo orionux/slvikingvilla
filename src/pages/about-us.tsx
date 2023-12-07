@@ -51,7 +51,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div
-              className={`col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center  px-0 px-md-5 position-relative`}
+              className={`col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center  px-0 px-md-5 position-relative mb-5`}
             >
               <Image
                 src={"/assests/images/bg/aboutquality.png"}
@@ -60,20 +60,21 @@ const AboutUs = () => {
                 height={300}
                 className={`${styles.imgStory}`}
               />
+              <Image
+                      src={"/assests/images/icons/villablack.png"}
+                      alt=""
+                      width={250}
+                      height={120}
+                      className={ 'img-fluid position-absolute top-100 start-0 translate-middle ms-5 pb-5'}
+                    />
+              
+
+              {/*
               <div
-                className="d-flex bg-white flex-column position-absolute pe-4 pt-4 bg-transparent"
+                className="d-flex bg-white flex-column position-absolute pe-4 pt-4"
                 style={{ left: 0, bottom: 0 }}
               >
 
-                    <Image
-                      src={"/assests/images/icons/villablack.png"}
-                      alt=""
-                      width={220}
-                      height={100}
-                      className={`img-fluid ${styles.ceo_img}`}
-                    />
-
-                {/*
                 <div className="d-flex flex-row">
                   <div className="col-3 me-2 d-flex flex-column justify-content-center">
                     <Image
@@ -121,8 +122,8 @@ const AboutUs = () => {
                     fill="#E1B168"
                   />
                 </svg> 
-                */}
-              </div>
+                
+              </div> */}
             </div>
           </div>
         </div>
@@ -282,18 +283,18 @@ const AboutUs = () => {
                   alt=""
                   width={350}
                   height={300}
-                  className={`img-fluid ${styles.team_image} mb-2`}
+                  className={`img-fluid w-100 h-100 mb-2`}
                 />
-                <div className='position-absolute top-50 start-50' >
+                
                 <Image
                       src={"/assests/images/icons/villawhite.png"}
                       alt=""
                       width={220}
                       height={60}
-                      className={`img-fluid`}
+                      className={`img-fluid position-absolute bottom-0 end-0 me-5 mb-5`}
                     />
 
-                </div>
+                
               </div>
               <div
                 className={`col-12 col-md-6 col-lg-3 ps-1 ${styles.gallery_sec_height} ${styles.column_small}`}

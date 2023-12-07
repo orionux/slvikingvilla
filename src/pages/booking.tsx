@@ -102,24 +102,21 @@ const Booking = () => {
                   className={`img-fluid ${styles.team_image}`}
                 />
               </div>
-              <div className={`col-12 col-md-6 col-lg-6 p-1 position-relative ${styles.gallery_sec_height} ${styles.column_lg}`}>
+              <div className={`col-12 col-md-6 col-lg-6 p-1 position-relative  ${styles.gallery_sec_height} ${styles.column_lg}`}>
               <Image
                   src={"/assests/images/gallery/whatwemake3.png"}
                   alt=""
                   width={350}
                   height={300}
-                  className={`img-fluid ${styles.team_image} mb-2`}
+                  className={`img-fluid w-100 mb-2 h-100`}
                 />
-                <div className='position-absolute top-50 start-50' >
                 <Image
                       src={"/assests/images/icons/villawhite.png"}
                       alt=""
                       width={220}
                       height={60}
-                      className={`img-fluid`}
+                      className={`img-fluid position-absolute bottom-0 end-0 me-5 mb-5`}
                     />
-
-                </div>
               </div>
               <div className={`col-12 col-md-6 col-lg-3 ps-1 ${styles.gallery_sec_height} ${styles.column_small}`}>
               <Image

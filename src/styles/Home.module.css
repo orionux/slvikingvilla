@@ -130,7 +130,9 @@
 .imgStory{
   width: 100% !important;
   height: auto !important;
+  min-height: 70%;
 }
+
 .Descrioption h3 {
   font-family: var(--font-cormorant) !important;
   font-size: 30px;
@@ -694,7 +696,7 @@ width: 50% !important;
   display: flex;
   margin-top: 20px;
   gap: 10px;
-  
+
 }
 
 
