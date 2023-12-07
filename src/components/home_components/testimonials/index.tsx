@@ -18,44 +18,44 @@ const Testimonials = () => {
     {
       id: 1,
       image: "/assests/images/testimonials/voorden.png",
-      name: "Daniyal Sppra",
-      address: "Newyork",
-      desc: `"It is professional, considers everyone&apos;s time, can think about the  There are many variations of passages whole probls small niche, friendly."`
+      name: "M. M. Van voorden",
+      address: "Netherlands",
+      desc: `"Amazing hospitality! The friendly team at this Sri Lankan hostel made our stay truly memorable. From helping us plan our Sri Lanka trip to embracing a cozy Denmark theme, it's a perfect blend of warmth and style."`
     },
     {
-      id: 3,
+      id: 2,
       image: "/assests/images/testimonials/yayomi.png",
-      name: "Jack Sparrow",
-      address: "San Diego",
-      desc: `"It is professional, considers everyone's time, can think about the  There are many  passages whole probls small niche, friendly."`
+      name: "Yayomi Pramdige",
+      address: "Denmark",
+      desc: `"Thumbs up! A big shoutout to the team for their warm hospitality and assistance in organizing our Sri Lanka adventure. The Danish theme adds a unique charm, making this hostel a standout choice near the capital."`
     },
     {
       id: 3,
       image: "/assests/images/testimonials/sabiq.png",
-      name: "Natasha D",
-      address: "Salt Lake City",
-      desc: `"It is professional, considers everyone's time, can think about the  There are many variations of passages."`
+      name: "Sabiq Jawufer",
+      address: "Sri Lanka",
+      desc: `"Outstanding service! Kudos to the team for their exceptional friendliness and support in planning our Sri Lanka journey. The cozy Danish theme creates a charming and comfortable atmosphere."`
     },
     {
       id: 4,
       image: "/assests/images/testimonials/voorden.png",
-      name: "Daniyal Sppra",
-      address: "Newyork",
-      desc: `"It is professional, considers everyone&apos;s time, can think about the  There are many variations of passages whole probls small niche, friendly."`
+      name: "M. M. Van voorden",
+      address: "Netherlands",
+      desc: `"Amazing hospitality! The friendly team at this Sri Lankan hostel made our stay truly memorable. From helping us plan our Sri Lanka trip to embracing a cozy Denmark theme, it's a perfect blend of warmth and style."`
     },
     {
       id: 5,
       image: "/assests/images/testimonials/yayomi.png",
-      name: "Jack Sparrow",
-      address: "San Diego",
-      desc: `"It is professional, considers everyone's time, can think about the  There are many  passages whole probls small niche, friendly."`
+      name: "Yayomi Pramdige",
+      address: "Denmark",
+      desc: `"Thumbs up! A big shoutout to the team for their warm hospitality and assistance in organizing our Sri Lanka adventure. The Danish theme adds a unique charm, making this hostel a standout choice near the capital."`
     },
     {
       id: 6,
       image: "/assests/images/testimonials/sabiq.png",
-      name: "Natasha D",
-      address: "Salt Lake City",
-      desc: `"It is professional, considers everyone's time, can think about the  There are many variations of passages."`
+      name: "Sabiq Jawufer",
+      address: "Sri Lanka",
+      desc: `"Outstanding service! Kudos to the team for their exceptional friendliness and support in planning our Sri Lanka journey. The cozy Danish theme creates a charming and comfortable atmosphere."`
     },
   ]
   return (
