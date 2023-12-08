@@ -95,3 +95,88 @@ a {
 
 
 /* calander */
+
+
+/* trip plan */
+.step {
+  position: relative;
+  min-height: 1em;
+  color: white;
+  z-index: 1;
+  
+  
+}
+
+.title {
+  line-height: 1.5em;
+  font-weight: bold;
+  border: 1px solid;
+  padding: 7px;
+  width: 14rem;
+}
+
+.day {
+  line-height: 1.5em;
+  font-weight: bold;
+  width: 6rem;
+}
+
+.caption {
+  font-size: 0.8em;
+}
+
+.step + .step {
+  margin-top: 1.5em
+}
+
+.step > div:first-child {
+  position: Static;
+  height: 0;
+}
+
+.step > div:not(:first-child) {
+  margin-left: 1.5em;
+  padding-left: 1em;
+}
+
+/* Circle */
+.circle {
+  background: transparent;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  border-radius: 100%;
+  color: #AA8A59;
+  text-align: center;
+  box-shadow: 0 0 0 3px #AA8A59;
+  
+}
+
+/* Vertical Line */
+.circle:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  top: 1px;
+  right: 50%;
+  bottom: 1px;
+  left: 50%;
+  height: 80%;
+  width: 1px;
+  transform: scale(1, 2);
+  transform-origin: 50% -120%;
+  z-index: -1 ;
+  background: repeating-linear-gradient(to bottom, transparent, transparent 2px, #AA8A59 1px, #AA8A59 4px);
+}
+
+.step:last-child .circle:after {
+  display: none
+}
+
+.step.step-active {
+  color: none
+}
+.step.step-active .circle {
+  background-color: none;
+}

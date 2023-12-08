@@ -58,44 +58,82 @@ const PlanTrip = () => {
           </p>
           <Image src={''} alt="logo" width={50} height={50} />
         </div>
-        <div className="col-5">
-          <div className="d-flex flex-row justify-content-between w-100">
-            <div><p>1st -2nd Days</p></div>
-            <div><p>icon</p></div>
-            <p className="border-2">Airport to Seegiriya</p>
-          </div>
-          <div className="d-flex flex-row justify-content-between w-100">
-            <div><p>3rd Day</p></div>
-            <div><p>icon</p></div>
-            <p className="border-2">Seegiriya To Kandy</p>
-          </div>
-          <div className="d-flex flex-row justify-content-between w-100">
-            <div><p>4th Day</p></div>
-            <div><p>icon</p></div>
-            <p className="border-2">Kandy To Nuwara Eliya</p>
-          </div>
-          <div className="d-flex flex-row justify-content-between w-100">
-            <div><p>5th Day</p></div>
-            <div><p>icon</p></div>
-            <p className="border-2">Nuwara Eliya To Ella</p>
-          </div>
-          <div className="d-flex flex-row justify-content-between w-100">
-            <div><p>6th Day</p></div>
-            <div><p>icon</p></div>
-            <p className="border-2">Ella to Mathara or Galle</p>
-          </div>
-          <div className="d-flex flex-row justify-content-between w-100">
-            <div><p>7th Day</p></div>
-            <div><p>icon</p></div>
-            <p className="border-2">Galle or Mathara to Airport</p>
-          </div>
-          <div className="row"></div>
-          <div className="row"></div>
-          <div className="row"></div>
-          <div className="row"></div>
-          <div className="row"></div>
+
+
+        <div className="col-5 d-flex justify-content-center align-items-center px-0">
+
           
-          
+          <div className="">
+            <div className="col-12 step d-flex">
+            <div>
+                    <div className=" day ">1st-2nd Day</div>
+                </div>
+              <div>
+                <div className=" circle"><Image src={'/assests/images/PlanTrip/dot.png'} alt="" height={80} width={80}className="img-fluid d-flex" /></div>
+              </div>
+              <div>
+                <div className="title">Airport to Seegiriya </div>
+        
+              </div>
+            </div>
+            <div className="step step-active d-flex">
+            <div>
+                    <div className="day ">3rd Day</div>
+                </div>
+                <div className="">
+                    <div className="circle">A</div>
+                </div>
+                <div>
+                    <div className="title">Seegiriya To Kandy</div>
+                    
+                </div>
+              </div>
+              <div className="step d-flex">
+              <div>
+                    <div className="day ">4th Day</div>
+                </div>
+                <div className="">
+                    <div className="circle">B</div>
+                </div>
+                <div>
+                    <div className="title">Kandy To Nuwara Eliya</div>
+                    
+                </div>
+              </div>
+              <div className="step d-flex">
+              <div>
+                    <div className="day ">5th Day</div>
+                </div>
+                <div>
+                    <div className="circle">C</div>
+                </div>
+                <div>
+                    <div className="title">Nuwara Eliya To Ella</div>
+                </div>
+              </div>
+              <div className="step d-flex">
+              <div>
+                    <div className="day ">6th Day</div>
+                </div>
+                <div>
+                    <div className="circle">D</div>
+                </div>
+                <div>
+                    <div className="title">Ella to Mathara or Galle</div>
+                </div>
+              </div>
+              <div className="step d-flex">
+              <div>
+                    <div className="day ">7th Day</div>
+                </div>
+                <div>
+                    <div className="circle ">E</div>
+                </div>
+                <div>
+                    <div className="title ">Galle or Mathara to Airport</div>
+                </div>
+              </div>
+          </div>
         </div>
         <div className="col-3">
           <div className="position-relative">
@@ -112,7 +150,7 @@ const PlanTrip = () => {
       </div>
 
 
-
+      
       </div>
         <div
           className={`d-flex pb-5 bg-white w-100 justify-content-center align-items-center ${styles.availability_plan}`}
