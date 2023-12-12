@@ -46,6 +46,7 @@ const PlanTrip = () => {
         <a href="#" className={`${styles.planLink} text-white px-2`}>Plane 03</a>
         </div>
 
+      <div>
       <div className="col-12 d-flex text-white mb-5">
         <div className="col-3">
           <h3 className="">Plane 01</h3>
@@ -144,12 +145,17 @@ const PlanTrip = () => {
         
         
         </div>
-
-
-
-
+       
       </div>
 
+      <div className="text-center">
+        <button>Start With This Plan</button>
+        <button>Make Custom Plan</button>
+        </div>
+
+      </div>  
+
+      <div>
       <div className="col-12 d-flex text-white pt-5 mb-5">
         <div className="col-3">
           <h3 className="">Plane 02</h3>
@@ -276,7 +282,15 @@ const PlanTrip = () => {
 
       </div>
 
+      <div className="text-center">
+        <button>Start With This Plan</button>
+        <button>Make Custom Plan</button>
+        </div>
 
+      </div>
+
+
+      <div>
       <div className="col-12 d-flex text-white pt-5">
         <div className="col-3">
           <h3 className="">Plane 03</h3>
@@ -457,7 +471,12 @@ const PlanTrip = () => {
 
 
       </div>
+      <div className="text-center">
+        <button>Start With This Plan</button>
+        <button>Make Custom Plan</button>
+        </div>
 
+      </div>  
       
       </div>
         <div
