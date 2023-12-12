@@ -180,3 +180,88 @@ a {
 .step.step-active .circle {
   background-color: none;
 }
+
+/*tripplan*/
+input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+/* Base styles for this example */
+
+.wrapper {
+  width: 100%;
+   height: auto;
+  display: flex;
+}
+
+.slide {
+  width: 0;
+}
+
+.content {
+  width: 100vw;
+  height: 100%; /* this is optional if you want every slide to have same height as the highest one */
+}
+
+/* Additional styling */
+
+
+.wrapper {
+  margin: 0 auto;
+  background-color: #292E36;
+  box-shadow: 3px 3px 20px #ada2a2;
+}
+
+
+
+.content {
+  padding: 30px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+  max-height: 110vh;
+  overflow-y: auto;
+}
+
+.content1,
+.content2,
+.content3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background-color: #292E36;
+}
+
+.content3 {
+  
+  background-size: cover;
+  background-position: center;
+}
+#i_1:checked ~ .wrapper .content1,
+#i_2:checked ~ .wrapper .content2,
+#i_3:checked ~ .wrapper .content3
+ {
+  opacity: 1;
+  pointer-events: none;
+}
+
+label {
+  color: grey;
+  transition-duration: .6s;
+  cursor: pointer;
+}
+
+#i_1:checked ~ .controls label[for="i_1"],
+#i_2:checked ~ .controls label[for="i_2"],
+#i_3:checked ~ .controls label[for="i_3"]
+ {
+  color: white;
+}
+
+.controls {
+  background-color: #292E36;
+}
