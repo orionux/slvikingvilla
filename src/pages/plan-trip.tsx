@@ -10,11 +10,14 @@ import { useState } from 'react';
 import { GoDotFill } from "react-icons/go";
 
 const PlanTrip = () => {
+
+
   const [selectedSlide, setSelectedSlide] = useState(1);
 
   const handleRadioChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSelectedSlide(Number(event.target.id.split('_')[1]));
   };
+
 
 
   return (
@@ -56,7 +59,7 @@ const PlanTrip = () => {
         <a href="#" className={`${styles.planLink} text-white px-2`}><label htmlFor="i_3">Plane 03</label></a>
         </div>
 
-        <div>
+<div>
     
     <input
       type="radio"
@@ -489,12 +492,8 @@ const PlanTrip = () => {
         <Image src={'/assests/images/PlanTrip/mapback.png'} className="position-absolute  top-0 end-0 " alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="position-absolute end-0 " alt="" width={250} height={500} />
         </div>
-      
-      
+           
       </div>
-
-
-
 
     </div>
         </div>
@@ -502,7 +501,7 @@ const PlanTrip = () => {
         
     </div>
     <div className="controls text-center">
-      <label htmlFor="i_1"><GoDotFill /></label>
+      <label htmlFor="i_1" ><GoDotFill /></label>
       <label htmlFor="i_2"><GoDotFill /></label>
       <label htmlFor="i_3"><GoDotFill /></label>
    

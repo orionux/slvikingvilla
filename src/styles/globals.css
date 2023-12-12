@@ -186,14 +186,12 @@ input {
   opacity: 0;
   width: 0;
   height: 0;
-  position: absolute;
+  position:fixed;
 }
-
-/* Base styles for this example */
 
 .wrapper {
   width: 100%;
-   height: auto;
+  max-height: 150vh;
   display: flex;
 }
 
@@ -203,16 +201,16 @@ input {
 
 .content {
   width: 100vw;
-  height: 100%; /* this is optional if you want every slide to have same height as the highest one */
+  
 }
 
-/* Additional styling */
+
 
 
 .wrapper {
   margin: 0 auto;
   background-color: #292E36;
-  box-shadow: 3px 3px 20px #ada2a2;
+  box-shadow:none;
 }
 
 
@@ -223,7 +221,7 @@ input {
   pointer-events: none;
   transition: opacity .6s;
   max-height: 110vh;
-  overflow-y: auto;
+  
 }
 
 .content1,
@@ -232,7 +230,7 @@ input {
 {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: flex-start;  
   background-color: #292E36;
 }
 
@@ -246,22 +244,24 @@ input {
 #i_3:checked ~ .wrapper .content3
  {
   opacity: 1;
-  pointer-events: none;
+  pointer-events:auto;
 }
 
 label {
   color: grey;
   transition-duration: .6s;
-  cursor: pointer;
+  cursor:pointer;
+
 }
 
 #i_1:checked ~ .controls label[for="i_1"],
 #i_2:checked ~ .controls label[for="i_2"],
 #i_3:checked ~ .controls label[for="i_3"]
- {
+{
   color: white;
 }
 
 .controls {
   background-color: #292E36;
 }
+

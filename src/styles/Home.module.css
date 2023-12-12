@@ -563,16 +563,6 @@
   font-size: 18px;
 }
 
-.planTrip {
-  height: 250vh;
-  width: 100%;
-  background-color: #292E36;
-
-}
-
-
-
-
 
 .team_image{
   width: 100% !important;
@@ -925,3 +915,9 @@ width: 50% !important;
 
 /* trip plan */
 
+.planTrip {
+  height: 150vh;
+  width: 100%;
+  background-color: #292E36;
+
+}
