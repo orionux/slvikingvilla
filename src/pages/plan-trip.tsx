@@ -8,6 +8,8 @@ import { MdPhoneAndroid } from "react-icons/md";
 
 import { useState } from 'react';
 import { GoDotFill } from "react-icons/go";
+import { FaCircle } from "react-icons/fa";
+
 
 const PlanTrip = () => {
 
@@ -53,10 +55,10 @@ const PlanTrip = () => {
           </div>
         </div>
       <div className={`${styles.planTrip} w-100`}>
-        <div className="w-100 text-center px-2 pb-5">
-        <a href="#" className={`${styles.planLink} text-white px-2`}><label htmlFor="i_1">Plane 01</label></a>
-        <a href="#" className={`${styles.planLink} text-white px-2`}><label htmlFor="i_2">Plane 02</label></a>
-        <a href="#" className={`${styles.planLink} text-white px-2`}><label htmlFor="i_3">Plane 03</label></a>
+        <div className={`${styles.planLink} w-100 text-center px-2 pb-5`}>
+        <label htmlFor="i_1" className="text-white pb-1">Plan 01</label>
+        <label htmlFor="i_2" className="text-white pb-1">Plan 02</label>
+        <label htmlFor="i_3" className="text-white pb-1">Plan 03</label>
         </div>
 
 <div>
@@ -86,9 +88,12 @@ const PlanTrip = () => {
     <div className="wrapper">
       <div className="slide">
         <div className="content content1">
-        <div className="col-12 d-flex text-white mb-5">
+        <div className="col-12 d-flex text-white">
       <div className="col-3">
-        <h3 className="">Plane 01</h3>
+        <h3 className={`${styles.planTopics} `}>
+        <Image src={'/assests/images/PlanTrip/plantopic.png'} alt="" height={20} width={20} className="" />
+          Plan 01
+        </h3>
         <p className="">
           Embark on a Remarkable Journey of Cultural Fusion and Unmatched Hospitality at
            the Finest Hotel in Sri Lanka, Owned by a Danish Entrepreneur. Experience the
@@ -109,7 +114,7 @@ const PlanTrip = () => {
                   <div className=" day ">1st-2nd Day</div>
               </div>
             <div>
-              <div className=" circle"><Image src={'/assests/images/PlanTrip/dot.png'} alt="" height={80} width={80}className="img-fluid d-flex" /></div>
+              <div className=" circle"><Image src={'/assests/images/PlanTrip/dot.png'} alt="" height={30} width={30}className="img-fluid d-flex" /></div>
             </div>
             <div>
               <div className="title">Airport to Seegiriya </div>
@@ -180,6 +185,9 @@ const PlanTrip = () => {
         <div className="position-relative">
         <Image src={'/assests/images/PlanTrip/mapback.png'} className="position-absolute  top-0 end-0 " alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="position-absolute end-0 " alt="" width={250} height={500} />
+        <div className="position-absolute top-0 end-0">
+          Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span>
+        </div>
         </div>
       
       
@@ -191,9 +199,12 @@ const PlanTrip = () => {
       </div>
       <div className="slide">
         <div className="content content2">
-        <div className="col-12 d-flex text-white pt-5 mb-5">
+        <div className="col-12 d-flex text-white">
       <div className="col-3">
-        <h3 className="">Plane 02</h3>
+        <h3 className={`${styles.planTopics}`}>
+          <Image src={'/assests/images/PlanTrip/plantopic.png'} alt="" height={20} width={20} className="" />
+          Plan 02
+          </h3>
         <p className="">
           Embark on a Remarkable Journey of Cultural Fusion and Unmatched Hospitality at
            the Finest Hotel in Sri Lanka, Owned by a Danish Entrepreneur. Experience the
@@ -307,6 +318,9 @@ const PlanTrip = () => {
         <div className="position-relative">
         <Image src={'/assests/images/PlanTrip/mapback.png'} className="position-absolute  top-0 end-0 " alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="position-absolute end-0 " alt="" width={250} height={500} />
+        <div className="position-absolute top-0 end-0">
+          Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span>
+        </div>
         </div>
       
       
@@ -320,9 +334,12 @@ const PlanTrip = () => {
       </div>
       <div className="slide">
         <div className="content content3">
-        <div className="col-12 d-flex text-white pt-5">
+        <div className="col-12 d-flex text-white">
       <div className="col-3">
-        <h3 className="">Plane 03</h3>
+        <h3 className={`${styles.planTopics}`}>
+        <Image src={'/assests/images/PlanTrip/plantopic.png'} alt="" height={20} width={20} className="" />
+          Plan 03
+        </h3>
         <p className="">
           Embark on a Remarkable Journey of Cultural Fusion and Unmatched Hospitality at
            the Finest Hotel in Sri Lanka, Owned by a Danish Entrepreneur. Experience the
@@ -491,6 +508,9 @@ const PlanTrip = () => {
         <div className="position-relative">
         <Image src={'/assests/images/PlanTrip/mapback.png'} className="position-absolute  top-0 end-0 " alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="position-absolute end-0 " alt="" width={250} height={500} />
+        <div className="position-absolute top-0 end-0">
+          Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span>
+        </div>
         </div>
            
       </div>
@@ -509,8 +529,14 @@ const PlanTrip = () => {
 
   
 </div>
-      
+                  <div className='text-center pt-5'>
+                    <button className={`text-center text-white ${styles.planButtons}`}>Start With This Plan</button>
+                    <button className={`text-center text-white ${styles.planButtons}`}>Make Custom Plan</button>
+                  </div>
       </div>
+
+    
+
         <div
           className={`d-flex pb-5 bg-white w-100 justify-content-center align-items-center ${styles.availability_plan}`}
         >
