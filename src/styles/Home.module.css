@@ -916,7 +916,7 @@ width: 50% !important;
 /* trip plan */
 
 .planTrip {
-  height: 120vh;
+  height: 150vh;
   width: 100%;
   background-color: #292E36;
   padding: 48px;
@@ -966,8 +966,5 @@ width: 50% !important;
 }
 
 @media screen and (max-width:991px) {
-  .planTrip {
-    height: 180vh;
-  }
   
 }
