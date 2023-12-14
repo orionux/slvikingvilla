@@ -916,7 +916,7 @@ width: 50% !important;
 /* trip plan */
 
 .planTrip {
-  height: 150vh;
+  height: 120vh;
   width: 100%;
   background-color: #292E36;
   padding: 48px;
@@ -945,10 +945,13 @@ width: 50% !important;
 .planLink label {
   padding: 0 5px;
   text-decoration: none;
+  transition-duration: 0.6s;
 }
 
 
-.planLink label:hover {
+.planLink label:hover,
+.planLink label:active,
+.planLink label:focus  {
   text-decoration: underline 3px #DAC38A;
     
 }
@@ -960,4 +963,11 @@ width: 50% !important;
 
 .spangold {
   color: #B3905B;
+}
+
+@media screen and (max-width:991px) {
+  .planTrip {
+    height: 180vh;
+  }
+  
 }

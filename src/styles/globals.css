@@ -213,17 +213,19 @@ input {
   margin: 0 auto;
   background-color: #292E36;
   box-shadow:none;
+  align-items: flex-start;
+  max-height:100vh;
 }
 
 
 
 .content {
-  padding: 30px;
+  padding: 10px;
   opacity: 0;
   pointer-events: none;
   transition: opacity .6s;
   max-height: 110vh;
-  
+
 }
 
 .content1,
@@ -232,15 +234,10 @@ input {
 {
   display: flex;
   justify-content: center;
-  align-items: flex-start;  
+  align-items: center;  
   background-color: #292E36;
 }
 
-.content3 {
-  
-  background-size: cover;
-  background-position: center;
-}
 #i_1:checked ~ .wrapper .content1,
 #i_2:checked ~ .wrapper .content2,
 #i_3:checked ~ .wrapper .content3
@@ -268,3 +265,33 @@ label {
   background-color: #292E36;
 }
 
+/* swiper js
+.containernew {
+  color:#1F242C;
+  
+} 
+
+.mySwiper {
+  
+  background-color:#292E36;
+  
+}*/
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.swiper .swiper-slide {
+  height: 300px;
+}
+
+.swiper .swiper-slide:nth-child(2n) {
+  height: 700px;
+ 
+}
