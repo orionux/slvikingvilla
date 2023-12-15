@@ -966,10 +966,9 @@ width: 50% !important;
 }
 
 @media screen and (max-width:991px) {
-  .positionAbsolute {
-    position: static;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
+  .positionMobile {
+    position: absolute;
+    top:-70px;
+    
   }
 }
