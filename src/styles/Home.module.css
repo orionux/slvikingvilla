@@ -965,6 +965,18 @@ width: 50% !important;
   color: #B3905B;
 }
 
+.positionBack {
+  position: absolute;
+  top: -15%;
+  left:25%;
+}
+.positionText {
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+
+
 @media screen and (max-width:991px) {
   .positionMobile {
     position: absolute;
@@ -978,4 +990,26 @@ width: 50% !important;
   }
   
 
+}
+
+@media screen and (max-width:991px) {
+  .positionMobile {
+    position: absolute;
+    top:-70px;
+    
+  }
+  .planTrip {
+    height: 280vh;
+    padding: 10px;
+  
+  }
+  
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .positionText {
+    font-size: small;
+  }
+  
 }

@@ -197,11 +197,11 @@ const PlanTrip = () => {
 
       <div className='col-11 col-lg-3 pt-5 d-none d-lg-block'>
         <div className='position-relative'>
-        <Image src={'/assests/images/PlanTrip/mapback.png'} className= 'img-fluid position-absolute  top-0 end-0' alt="" width={250} height={250} />
-        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid position-absolute end-0' alt="" width={250} height={500} />
-        <div className="position-absolute top-0 end-0 d-flex flex-row">
+        <Image src={'/assests/images/PlanTrip/mapback.png'} className= {`${styles.positionBack} img-fluid`} alt="" width={250} height={250} />
+        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
+        <div className={`${styles.positionText} d-flex flex-row`}>
           <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
-          <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
+          <div className=''>Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
         </div>
         </div>
       
@@ -344,9 +344,9 @@ const PlanTrip = () => {
 
       <div className="col-11 col-lg-3 pt-5 d-none d-lg-block">
         <div className="position-relative">
-        <Image src={'/assests/images/PlanTrip/mapback.png'} className=" img-fluid position-absolute  top-0 end-0 " alt="" width={250} height={250} />
-        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="img-fluid position-absolute end-0 " alt="" width={250} height={500} />
-        <div className="position-absolute top-0 end-0 d-flex flex-row">
+        <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionBack} img-fluid`} alt="" width={250} height={250} />
+        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
+        <div className={`${styles.positionText} d-flex flex-row`}>
           <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
           <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
         </div>
@@ -548,9 +548,9 @@ const PlanTrip = () => {
 
       <div className="col-11 col-lg-3 pt-5 d-none d-lg-block">
         <div className="position-relative">
-        <Image src={'/assests/images/PlanTrip/mapback.png'} className="img-fluid position-absolute  top-0 end-0 " alt="" width={250} height={250} />
-        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="img-fluid position-absolute end-0 " alt="" width={250} height={500} />
-        <div className="position-absolute top-0 end-0 d-flex flex-row">
+        <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionBack} img-fluid`}alt="" width={250} height={250} />
+        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
+        <div className={`${styles.positionText} d-flex flex-row`}>
           <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
           <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
         </div>
