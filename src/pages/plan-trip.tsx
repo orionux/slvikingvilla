@@ -122,19 +122,19 @@ const PlanTrip = () => {
       <div className="col-11 col-lg-5 d-flex justify-content-center align-items-center px-0 pt-5">
 
         
-        <div className="">
-          <div className="col-12 step d-flex">
-          <div>
-                  <div className=" day ">1st-2nd Day</div>
+        <div className={`${styles.dayPlan} `}>
+            <div className="step d-flex">
+              <div>
+                      <div className=" day ">1st-2nd Day</div>
+                  </div>
+                <div>
+                  <div className=" circle"><Image src={'/assests/images/PlanTrip/dot.png'} alt="" height={30} width={30}className="img-fluid d-flex" /></div>
+                </div>
+                <div>
+                  <div className="title">Airport to Seegiriya </div>
+          
+                </div>
               </div>
-            <div>
-              <div className=" circle"><Image src={'/assests/images/PlanTrip/dot.png'} alt="" height={30} width={30}className="img-fluid d-flex" /></div>
-            </div>
-            <div>
-              <div className="title">Airport to Seegiriya </div>
-      
-            </div>
-          </div>
           <div className="step step-active d-flex">
           <div>
                   <div className="day ">3rd Day</div>
@@ -572,14 +572,14 @@ const PlanTrip = () => {
 
   
 </div>
-                  <div className='text-center pt-5'>
+                  <div className='text-center pt-5 mb-0 mb-lg-0'>
                     <button className={`text-center text-white ${styles.planButtons}`}>Start With This Plan</button>
                     <button className={`text-center text-white ${styles.planButtons}`}>Make Custom Plan</button>
                   </div>
       </div>
 
     
-
+{/*
         <div
           className={`d-flex pb-5 bg-white w-100 justify-content-center align-items-center ${styles.availability_plan}`}
         >
@@ -636,6 +636,7 @@ const PlanTrip = () => {
             </div>
           </div>
         </div>
+  */}
       </div>
     </>
   );

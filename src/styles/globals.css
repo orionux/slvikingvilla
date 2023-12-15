@@ -121,9 +121,6 @@ a {
   width: 6rem;
 }
 
-.caption {
-  font-size: 0.8em;
-}
 
 .step + .step {
   margin-top: 1.5em
@@ -224,9 +221,6 @@ input {
   opacity: 0;
   pointer-events: none;
   transition: opacity .6s;
-  
-  
-
 
 }
 
@@ -268,5 +262,46 @@ label {
 }
 
 
+@media screen and (max-width:500px) {
+  .step {
+    min-height: 1em;
+    font-size:x-small; 
+  }
+  
+  .title {
+    line-height: 1em;
+    width: 11rem;
+  }
+  
+  .day {
+    line-height: 1em;
+    width: 3rem;
+  }
+  .content {
+    padding-top: 10px;
+   
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .step {
+    min-height: 1em;
+    font-size: small; 
+  }
+  
+  .title {
+    line-height: 1.5em;
+    width: 13rem;
+  }
+  
+  .day {
+    line-height: 1.5em;
+    width: 4rem;
+  }
+  .content {
+    padding-top: 10px;
+   
+  }
+}
 
 
