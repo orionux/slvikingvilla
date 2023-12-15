@@ -224,7 +224,7 @@ input {
   opacity: 0;
   pointer-events: none;
   transition: opacity .6s;
-  height: auto;
+  
   
 
 
@@ -267,33 +267,6 @@ label {
   background-color: #292E36;
 }
 
-/* swiper js
-.containernew {
-  color:#1F242C;
-  
-} 
 
-.mySwiper {
-  
-  background-color:#292E36;
-  
-}*/
-.swiper {
-  width: 100%;
-  height: auto;
-}
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
 
-}
-
-.swiper .swiper-slide {
-  height: 300px;
-}
-
-.swiper .swiper-slide:nth-child(2n) {
-  height: 700px;
- 
-}

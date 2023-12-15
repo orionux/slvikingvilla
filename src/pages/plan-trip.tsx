@@ -90,6 +90,20 @@ const PlanTrip = () => {
       <div className="slide">
         <div className="content content1">
         <div className="col-12 d-flex flex-column flex-lg-row text-white">
+
+        <div className='col-11 col-lg-3 pt-5 d-block d-lg-none position-relative'>
+        <Image src={'/assests/images/PlanTrip/mapback.png'} className= 'position-absolute top-0 start-50' alt="" width={250} height={250} />
+        <div className='position-relative d-flex justify-content-center align-items-center'>
+        
+        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid ' alt="" width={250} height={500} />
+        <div className="d-flex flex-row position-absolute top-0 start-50">
+          <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
+          <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
+        </div>
+        </div>
+      
+      
+      </div>
       <div className="col-11 col-lg-3 ">
         <h3 className={`${styles.planTopics} pb-5`}>
         <Image src={'/assests/images/PlanTrip/plantopic.png'} alt="" height={20} width={20} className="" />
@@ -182,10 +196,10 @@ const PlanTrip = () => {
         </div>
       </div>
 
-      <div className='col-11 col-lg-3 pt-5'>
-        <div className="position-relative">
+      <div className='col-11 col-lg-3 pt-5 d-none d-lg-block'>
+        <div className='position-relative'>
         <Image src={'/assests/images/PlanTrip/mapback.png'} className= ' position-absolute  top-0 end-0' alt="" width={250} height={250} />
-        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="positionMobile position-absolute end-0 " alt="" width={250} height={500} />
+        <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='position-absolute end-0' alt="" width={250} height={500} />
         <div className="position-absolute top-0 end-0 d-flex flex-row">
           <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
           <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
@@ -316,7 +330,7 @@ const PlanTrip = () => {
         </div>
       </div>
 
-      <div className="col-11 col-lg-3 pt-5">
+      <div className="col-11 col-lg-3 pt-5 d-none d-lg-block">
         <div className="position-relative">
         <Image src={'/assests/images/PlanTrip/mapback.png'} className="position-absolute  top-0 end-0 " alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="position-absolute end-0 " alt="" width={250} height={500} />
@@ -507,7 +521,7 @@ const PlanTrip = () => {
         </div>
       </div>
 
-      <div className="col-11 col-lg-3 pt-5">
+      <div className="col-11 col-lg-3 pt-5 d-none d-lg-block">
         <div className="position-relative">
         <Image src={'/assests/images/PlanTrip/mapback.png'} className="position-absolute  top-0 end-0 " alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className="position-absolute end-0 " alt="" width={250} height={500} />
@@ -515,7 +529,7 @@ const PlanTrip = () => {
           <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
           <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
         </div>
-        </div>
+      </div>
            
       </div>
 
