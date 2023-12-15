@@ -91,14 +91,14 @@ const PlanTrip = () => {
         <div className="content content1">
         <div className="col-12 d-flex flex-column flex-lg-row text-white">
 
-          <div className='col-11 d-block d-lg-none position-relative'>
+          <div className='col-11 d-block d-lg-none pb-5'>
           
             <div className='position-relative d-flex justify-content-center align-items-center'>
               <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionMobile} img-fluid`} alt="" width={250} height={250} />
               <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid' alt="" width={250} height={500} />
               <div className="d-flex flex-row position-absolute top-0 start-50">
                 <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
-                <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
+                <div className={`${styles.cornerText}`}>Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
               </div>
             </div>
           </div>
@@ -216,14 +216,14 @@ const PlanTrip = () => {
         <div className="content content2">
         <div className="col-12 d-flex flex-column flex-lg-row text-white">
 
-        <div className='col-11 d-block d-lg-none position-relative'>
+        <div className='col-11 d-block d-lg-none pb-5'>
           
           <div className='position-relative d-flex justify-content-center align-items-center'>
             <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionMobile} img-fluid `} alt="" width={250} height={250} />
             <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid ' alt="" width={250} height={500} />
             <div className="d-flex flex-row position-absolute top-0 start-50">
               <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
-              <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
+              <div className={`${styles.cornerText}`}>Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
             </div>
           </div>
         </div>
@@ -365,14 +365,14 @@ const PlanTrip = () => {
         <div className="content content3">
         <div className="col-12 d-flex flex-column flex-lg-row text-white">
 
-        <div className='col-11 d-block d-lg-none position-relative'>
+        <div className='col-11 d-block d-lg-none pb-5'>
           
           <div className='position-relative d-flex justify-content-center align-items-center'>
             <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionMobile} img-fluid`} alt="" width={250} height={250} />
             <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid' alt="" width={250} height={500} />
             <div className="d-flex flex-row position-absolute top-0 start-50">
               <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
-              <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
+              <div className={`${styles.cornerText}`}>Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
             </div>
           </div>
         </div>

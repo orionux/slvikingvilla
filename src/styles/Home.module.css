@@ -974,6 +974,11 @@ width: 50% !important;
   position: absolute;
   top: 0;
   left: 45%;
+  font-family: var(--font-cormorant) !important;
+}
+
+.cornerText {
+  font-family: var(--font-cormorant) !important;
 }
 
 
@@ -987,6 +992,9 @@ width: 50% !important;
     height: 280vh;
     padding: 10px;
   
+  }
+  .cornerText {
+    font-size: small;
   }
   
 
@@ -1010,6 +1018,7 @@ width: 50% !important;
 @media screen and (min-width:992px) and (max-width:1200px) {
   .positionText {
     font-size: small;
+    
   }
   
 }
