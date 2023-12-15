@@ -916,7 +916,7 @@ width: 50% !important;
 /* trip plan */
 
 .planTrip {
-  height: 150vh;
+  height: 200vh;
   width: 100%;
   background-color: #292E36;
   padding: 48px;
@@ -989,7 +989,7 @@ width: 50% !important;
     
   }
   .planTrip {
-    height: 280vh;
+    height: 380vh;
     padding: 10px;
   
   }
@@ -1000,20 +1000,6 @@ width: 50% !important;
 
 }
 
-@media screen and (max-width:991px) {
-  .positionMobile {
-    position: absolute;
-    top:-70px;
-    
-  }
-  .planTrip {
-    height: 280vh;
-    padding: 10px;
-  
-  }
-  
-
-}
 
 @media screen and (min-width:992px) and (max-width:1200px) {
   .positionText {
