@@ -52,7 +52,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
 
             {/* mobile toggle button */}
             <button
-              className="navbar-toggler"
+              className="navbar-toggler  position-absolute start-0"
               onClick={mobileNavbarHandler}
               type="button"
               data-bs-toggle="collapse"
@@ -61,7 +61,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="bi bi-list nav-toggle-icon d-block d-lg-none"></span>
+              <span className="bi bi-list nav-toggle-icon d-block d-xl-none"></span>
             </button>
             {showMoibleNav ? (
               <>
