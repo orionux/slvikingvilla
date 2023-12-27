@@ -61,7 +61,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="bi bi-list nav-toggle-icon"></span>
+              <span className="bi bi-list nav-toggle-icon d-block d-lg-none"></span>
             </button>
             {showMoibleNav ? (
               <>
