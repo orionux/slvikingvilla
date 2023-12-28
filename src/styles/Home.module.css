@@ -149,7 +149,7 @@
   bottom: -8px; 
   left: 25%; 
   width: 50%; 
-  border-bottom: 2px solid #555; 
+  border-bottom: 3px solid #555; 
 }
 .Descrioption p{
   font-family: var(--font-josefin) !important;
