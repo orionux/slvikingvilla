@@ -96,6 +96,9 @@ const Testimonials = () => {
                 1024: {
                   slidesPerView: 3,
                 },
+                2000: {
+                  slidesPerView: 4,
+                },
               }}
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}
