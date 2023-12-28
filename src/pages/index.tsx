@@ -34,7 +34,7 @@ export default function Home() {
                 className="img-fluid mt-5"
               />
             </div>
-            <div className="col-12 col-lg-6 px-0 px-md-5 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-12 col-lg-6 px-0 px-md-5 d-flex flex-column justify-content-center align-items-start">
               <h1 className="text-white font-comorant text-center text-lg-start">Welcome to Viking Villa Restaurant</h1>
               <p className="text-white font-josefin text-center text-lg-start px-0 px-md-5 px-lg-0">Welcome to a World of Refined Hospitality, Where Unmatched Service Meets Unparalleled Comfort</p>
             </div>
@@ -205,7 +205,7 @@ export default function Home() {
           </div>
           {/* image section */}
           {/* desc 1 */}
-          <div className="d-flex flex-column px-2 px-lg-5 py-5">
+          <div className="d-flex flex-column px-2 px-lg-5 py-5 m-xl-5">
             <div className="d-flex flex-column flex-lg-row px-0 px-lg-5 pt-5">
               <div className="col-12 col-lg-6 pb-lg-0">
                 <Image
@@ -248,7 +248,7 @@ export default function Home() {
           {/* desc 1 end */}
           <OurServices />
           {/* desc 2 */}
-          <div className="d-flex flex-column px-2 px-lg-5 py-5">
+          <div className="d-flex flex-column px-2 px-lg-5 py-5 m-xl-5">
             <div className="d-flex flex-column flex-lg-row px-0 px-lg-5 pt-0 pt-lg-5">
               <div className="col-12 col-lg-6 pb-lg-0">
                 <Image
