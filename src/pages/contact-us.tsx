@@ -24,9 +24,9 @@ const Contact = () => {
               </div>
             <Container>
               <div className="d-flex flex-column flex-md-row my-5 "> 
-                      <div className={` ${styles.customBackground} col-12 col-md-6 col-lg-5 px-1 py-1  d-flex  justify-content-center `} >
+                      <div className={` ${styles.customBackground} col-12 col-md-6 col-lg-5 px-1 py-1  d-flex  justify-content-center`} >
                         
-                      <div className={` ${styles.contactInfo} px-3 py-3 px-md-4 py-md-5 `}>
+                      <div className={` ${styles.contactInfo} px-3 py-3 px-md-4 py-md-5`}>
                 <h1>Contact Information</h1>
                 <p>Bring the table winwin survival strategies ensure<br/> 
                    proactive domination the end of the day 
@@ -81,38 +81,40 @@ const Contact = () => {
                     </div>
           
           
-                <div className={` ${styles.customBackground2} col-12 col-md-6 col-lg-7 px-1 py-5 px-md-3 py-md-4 d-flex justify-content-center `} >
-                    <div className="contact-form">
+                <div className={` ${styles.customBackground2} col-12 col-md-6 col-lg-7 px-1 py-5 ps-md-5 py-md-1 d-flex justify-content-center `} >
+                    <div className="contact-form w-100">
                     <p className='mb-2'>MAIL US</p>
                       
                         <h1>Have a Question?</h1>
-                        <Form>
-                          <Row>
-                            <Col>
+                        <Form className=''>
+                          <Row className='flex-column flex-md-row'>
+                            <Col className='px-2'>
                               <Form.Group controlId="formName">
                                 <Form.Control type="text" placeholder="Name"/>
                               </Form.Group>
                             </Col>
-                            <Col>
+                            <Col className='px-2'>
                               <Form.Group controlId="formEmail">
-                                <Form.Control type="email" placeholder="Email"   />
+                                <Form.Control type="email" placeholder="Email" />
                               </Form.Group>
                             </Col>
                           </Row>
-                          <Row>
-                            <Col>
+                          <Row className='flex-column flex-md-row'>
+                            <Col className='px-2'>
                               <Form.Group controlId="formSubject">
                                 <Form.Control type="text" placeholder="Subject"   />
                               </Form.Group>
                             </Col>
-                            <Col>
+                            <Col className='px-2'>
                               <Form.Group controlId="formPhone">
                                 <Form.Control type="text" placeholder="Phone" />
                               </Form.Group>
                             </Col>
                           </Row>
-                          <Form.Group controlId="formMessage">
+                          <Form.Group controlId="formMessage" >
+                            <Row className='px-2'>
                             <Form.Control as="textarea" rows={3} placeholder="Message" />
+                            </Row>
                           </Form.Group>
                           <Button variant="warning" type="submit" className="w-auto h-auto">Send</Button>
                         </Form>

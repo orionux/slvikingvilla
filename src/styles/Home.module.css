@@ -735,7 +735,7 @@ width: 50% !important;
   border-radius: 0;
   margin-bottom: 7%;
   margin-left: 0px;
-  height: 100%;
+  height: 50px;
   width: 100%; 
   
 
@@ -746,7 +746,7 @@ width: 50% !important;
   border-radius: 0%;
   margin-bottom: 10px;
   margin-left: 0px;
-  height: 100%;
+  height: 130px;
   width: 100%;
 
 }
@@ -764,14 +764,14 @@ width: 50% !important;
   border: 2px solid #e1b168; 
   background-color: transparent; 
   color: black; 
-  padding: 10px 20px;
+  padding: 10px 40px;
   cursor: pointer;
   border-radius: 0%;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 10px;
   margin-bottom: 20%;
-  width: 25%
+  width: 50%;
 
 }
 
@@ -823,7 +823,7 @@ width: 50% !important;
   border-radius: 100%;
   font-size: 20px;
 }
-
+/*
 @media (max-width: 360px ) {
 
   .customBackground p{
@@ -845,7 +845,20 @@ width: 50% !important;
   }
 
 
-}
+}*/
+
+@media only screen and (max-width:767px) {
+
+  .customBackground2 input[type="text"],
+  .customBackground2 input[type="email"] {
+    margin-bottom: 3%;
+  }
+
+  .customBackground2 textarea {
+    height:150px;
+  }
+
+} 
 
 @media (min-width: 768px ) and (max-width:991px) {
 
