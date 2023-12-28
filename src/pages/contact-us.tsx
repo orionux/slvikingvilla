@@ -81,8 +81,8 @@ const Contact = () => {
                     </div>
           
           
-                <div className={` ${styles.customBackground2} col-12 col-md-6 col-lg-7 px-1 py-5 ps-md-5 py-md-1 d-flex justify-content-center `} >
-                    <div className="contact-form w-100">
+                <div className={` ${styles.customBackground2} col-12 col-md-6 col-lg-7 px-1 py-5 ps-md-5 py-md-1 d-flex justify-content-center`} >
+                    <div className="contact-form w-100 pt-md-5">
                     <p className='mb-2'>MAIL US</p>
                       
                         <h1>Have a Question?</h1>
