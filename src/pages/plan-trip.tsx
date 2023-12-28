@@ -62,7 +62,7 @@ const PlanTrip = () => {
         <label htmlFor="i_3" className="text-white pb-1 px-4">Plan 03</label>
         </div>
 
-<div>
+<div className="radioInputs">
     
     <input
       type="radio"
