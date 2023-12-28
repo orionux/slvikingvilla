@@ -953,7 +953,7 @@ width: 50% !important;
 .planLink label:active,
 .planLink label:focus  {
   text-decoration: underline 3px #DAC38A;
-    
+  font-size: 23px;  
 }
 
 .planTopics {

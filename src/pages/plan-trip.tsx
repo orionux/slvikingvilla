@@ -56,10 +56,10 @@ const PlanTrip = () => {
           </div>
         </div>
       <div className={`${styles.planTrip} w-100`}>
-        <div className={`${styles.planLink} w-100 text-center px-2 pb-5`}>
-        <label htmlFor="i_1" className="text-white pb-1">Plan 01</label>
-        <label htmlFor="i_2" className="text-white pb-1">Plan 02</label>
-        <label htmlFor="i_3" className="text-white pb-1">Plan 03</label>
+        <div className={`${styles.planLink} w-100 text-center px-2 pb-5 `}>
+        <label htmlFor="i_1" className="text-white pb-1 px-4">Plan 01</label>
+        <label htmlFor="i_2" className="text-white pb-1 px-4">Plan 02</label>
+        <label htmlFor="i_3" className="text-white pb-1 px-4">Plan 03</label>
         </div>
 
 <div>
