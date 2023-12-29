@@ -189,7 +189,6 @@ a {
 .wrapper {
   width: 100%;
   display: flex;
-  
 }
 
 .slide {
@@ -197,9 +196,7 @@ a {
 }
 
 .content {
-  width: 100vw;
-  
-  
+  width: 100vw; 
 }
 
 

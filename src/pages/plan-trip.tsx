@@ -49,13 +49,13 @@ const PlanTrip = () => {
             </div>
           </div>
         </div>
-        <div className={`${styles.sec_plan_2} d-flex py-5 w-100`}>
+        <div className={`${styles.sec_plan_2} d-flex py-5 w-100 px-2`}>
           <div className="d-flex flex-column py-5 my-5 justify-content-center text-center align-items-center w-100">
           <h2 className={` ${styles.section_title}`}>Discover Your Perfect Adventure</h2>
           <p>We mention most popular routes there, Also you can make your own journey with us.</p>
           </div>
         </div>
-      <div className={`${styles.planTrip} w-100`}>
+      <div className={`${styles.planTrip} w-100 pt-4`}>
         <div className={`${styles.planLink} w-100 text-center px-2 pb-5 `}>
         <label htmlFor="i_1" className="text-white pb-1 px-3 px-md-4">Plan 01</label>
         <label htmlFor="i_2" className="text-white pb-1 px-3 px-md-4">Plan 02</label>
