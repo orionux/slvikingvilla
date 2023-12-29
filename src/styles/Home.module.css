@@ -731,7 +731,7 @@ width: 50% !important;
 
 .customBackground2 input[type="text"],
 .customBackground2 input[type="email"] {
-  border: 1px thin rgb(204, 199, 199); 
+  border: 1px solid rgb(204, 199, 199); 
   padding: 10px; 
   border-radius: 0;
   margin-bottom: 5%;
@@ -742,7 +742,7 @@ width: 50% !important;
 
 }
 .customBackground2 textarea {
-  border: 1px thin rgb(204, 199, 199); 
+  border: 1px solid rgb(204, 199, 199); 
   padding: 10px; 
   border-radius: 0%;
   margin-bottom: 10px;
