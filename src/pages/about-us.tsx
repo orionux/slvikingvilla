@@ -11,7 +11,7 @@ const AboutUs = () => {
         <div
           className={`d-flex w-100  align-items-center flex-column p-5 ${styles.sec_abut}`}
         >
-          <h2 className="my-4">About Us</h2>
+          <h2 className="my-4 text-nowrap">About Us</h2>
         </div>
         {/* section 2 */}
         <div className="d-flex px-2 px-lg-5 py-5 pb-lg-5 pt-lg-5">
