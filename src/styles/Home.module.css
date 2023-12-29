@@ -1001,6 +1001,12 @@ width: 50% !important;
   font-family: var(--font-cormorant) !important;
 }
 
+.locatWhiteIcon {
+  position: absolute;
+  top:-2%;
+  left: 36%;
+}
+
 
 @media screen and (max-width:991px) {
   .positionMobile {
@@ -1016,7 +1022,10 @@ width: 50% !important;
   .cornerText {
     font-size: small;
   }
-  
+  .locatWhiteIcon {
+    top:-3%;
+    left: 45%;
+  }
 
 }
 

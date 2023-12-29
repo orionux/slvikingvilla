@@ -96,8 +96,9 @@ const PlanTrip = () => {
             <div className='position-relative d-flex justify-content-center align-items-center'>
               <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionMobile} img-fluid`} alt="" width={250} height={250} />
               <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid' alt="" width={250} height={500} />
+              <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className={`${styles.locatWhiteIcon}`} />
               <div className="d-flex flex-row position-absolute top-0 start-50">
-                <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
+                
                 <div className={`${styles.cornerText}`}>Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
               </div>
             </div>
@@ -199,8 +200,9 @@ const PlanTrip = () => {
         <div className='position-relative'>
         <Image src={'/assests/images/PlanTrip/mapback.png'} className= {`${styles.positionBack} img-fluid`} alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
+        <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className={`${styles.locatWhiteIcon}`} />
         <div className={`${styles.positionText} d-flex flex-row`}>
-          <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
+          
           <div className=''>Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
         </div>
         </div>
@@ -221,8 +223,9 @@ const PlanTrip = () => {
           <div className='position-relative d-flex justify-content-center align-items-center'>
             <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionMobile} img-fluid `} alt="" width={250} height={250} />
             <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid ' alt="" width={250} height={500} />
+            <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className={`${styles.locatWhiteIcon}`} />
             <div className="d-flex flex-row position-absolute top-0 start-50">
-              <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
+              
               <div className={`${styles.cornerText}`}>Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
             </div>
           </div>
@@ -346,8 +349,9 @@ const PlanTrip = () => {
         <div className="position-relative">
         <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionBack} img-fluid`} alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
+        <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className={`${styles.locatWhiteIcon}`} />
         <div className={`${styles.positionText} d-flex flex-row`}>
-          <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
+          
           <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
         </div>
         </div>
@@ -370,8 +374,9 @@ const PlanTrip = () => {
           <div className='position-relative d-flex justify-content-center align-items-center'>
             <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionMobile} img-fluid`} alt="" width={250} height={250} />
             <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid' alt="" width={250} height={500} />
+            <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className={`${styles.locatWhiteIcon}`} />
             <div className="d-flex flex-row position-absolute top-0 start-50">
-              <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
+              
               <div className={`${styles.cornerText}`}>Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
             </div>
           </div>
@@ -550,8 +555,9 @@ const PlanTrip = () => {
         <div className="position-relative">
         <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionBack} img-fluid`}alt="" width={250} height={250} />
         <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
+        <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className={`${styles.locatWhiteIcon}`} />
         <div className={`${styles.positionText} d-flex flex-row`}>
-          <Image src={'/assests/images/PlanTrip/plantopicwhite.png'} alt="" height={20} width={20} className="" />
+          
           <div className="">Total Trip : <span className={`${styles.spangold}`}>184 KM</span><br/>Day Count : <span className={`${styles.spangold}`}>07</span></div>
         </div>
       </div>
