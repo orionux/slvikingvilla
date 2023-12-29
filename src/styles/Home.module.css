@@ -930,7 +930,7 @@ width: 50% !important;
 /* trip plan */
 
 .planTrip {
-  height: 200vh;
+  height: auto;
   width: 100%;
   background-color: #292E36;
   padding: 48px;
@@ -940,7 +940,7 @@ width: 50% !important;
 
 
 .planButtons {
-  width: 250px;
+  width: 300px;
   height: 50px;
   margin: 10px;
   background: #786019;
@@ -1003,7 +1003,7 @@ width: 50% !important;
     
   }
   .planTrip {
-    height: 380vh;
+    height: 122rem;
     padding: 10px;
   
   }

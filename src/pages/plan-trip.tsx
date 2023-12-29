@@ -57,9 +57,9 @@ const PlanTrip = () => {
         </div>
       <div className={`${styles.planTrip} w-100`}>
         <div className={`${styles.planLink} w-100 text-center px-2 pb-5 `}>
-        <label htmlFor="i_1" className="text-white pb-1 px-4">Plan 01</label>
-        <label htmlFor="i_2" className="text-white pb-1 px-4">Plan 02</label>
-        <label htmlFor="i_3" className="text-white pb-1 px-4">Plan 03</label>
+        <label htmlFor="i_1" className="text-white pb-1 px-3 px-md-4">Plan 01</label>
+        <label htmlFor="i_2" className="text-white pb-1 px-3 px-md-4">Plan 02</label>
+        <label htmlFor="i_3" className="text-white pb-1 px-3 px-md-4">Plan 03</label>
         </div>
 
 <div className="radioInputs">
@@ -572,7 +572,7 @@ const PlanTrip = () => {
 
   
 </div>
-                  <div className='text-center pt-5 mb-0 mb-lg-0'>
+                  <div className='text-center pt-5 mb-0 mb-lg-0 d-flex text-nowrap flex-column flex-md-row align-items-center justify-content-center'>
                     <button className={`text-center text-white ${styles.planButtons}`}>Start With This Plan</button>
                     <button className={`text-center text-white ${styles.planButtons}`}>Make Custom Plan</button>
                   </div>
