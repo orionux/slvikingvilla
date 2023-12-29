@@ -4,13 +4,22 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const TopBar = () => {
+
+    const handleButtonClick = () => {
+        window.location.href = '/contact-us';
+    }
+
+    const handleBtnClick = () => {
+        window.location.href = '/booking';
+    }
+
     return (
         <div className={` ${styles.topbar} w-100 d-flex flex-column flex-lg-row pt-5 pb-2 px-2 px-lg-5`}>
             {/* button 1 */}
             
             <div className="col-12 col-lg-4 d-none d-lg-flex justify-content-lg-start align-items-center px-0 px-lg-5">
                
-            <button className={`${styles.borderBtn} ${styles.btnAll} px-3 py-2`}>Contact Us Now</button>
+            <button onClick={handleButtonClick} className={`${styles.borderBtn} ${styles.btnAll} px-3 py-2`}>Contact Us Now</button>
             
             </div>
             
@@ -27,7 +36,7 @@ const TopBar = () => {
             </div>
             {/* button 2 */}
             <div className="col-12 col-lg-4 d-none d-lg-flex justify-content-lg-end align-items-center px-0 px-lg-5">
-                <button className={`${styles.filledBtn} ${styles.btnAll} px-3 py-2`}>Booking Now</button>
+                <button onClick={handleBtnClick} className={`${styles.filledBtn} ${styles.btnAll} px-3 py-2`}>Booking Now</button>
             </div>
         </div>
     )
