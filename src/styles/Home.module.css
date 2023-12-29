@@ -1007,6 +1007,12 @@ width: 50% !important;
   left: 36%;
 }
 
+.locatIconMobile {
+  position: absolute;
+  top: -30%;
+  left: -30%;
+}
+
 
 @media screen and (max-width:991px) {
   .positionMobile {
@@ -1022,10 +1028,7 @@ width: 50% !important;
   .cornerText {
     font-size: small;
   }
-  .locatWhiteIcon {
-    top:-3%;
-    left: 45%;
-  }
+
 
 }
 
