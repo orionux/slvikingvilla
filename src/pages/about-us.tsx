@@ -329,11 +329,11 @@ const AboutUs = () => {
         <Testimonials />
         {/* section 7 */}
         <div
-          className={`d-flex flex-column px-2 px-lg-5 justify-content-center align-items-center ${styles.Abut_form_sec_Bg} py-5`}
+          className={`d-flex flex-column px-2 px-md-5 justify-content-center align-items-center ${styles.Abut_form_sec_Bg} py-5`}
         >
-          <div className="col-12 col-lg-9 d-flex px-0 px-lg-5">
+          <div className="col-12 col-md-9 d-flex px-0 px-md-5">
             <div
-              className={`d-flex flex-column justify-content-center align-items-center p-0 p-lg-5 w-100 ${styles.booking_form}`}
+              className={`d-flex flex-column justify-content-center align-items-center p-0 p-md-5 w-100 ${styles.booking_form}`}
             >
               <h4 className="mt-5">Reservation</h4>
               <h3>Book your table now</h3>

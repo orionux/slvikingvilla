@@ -175,6 +175,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 50rem;
 }
 .BookingBg .checkCard{
   margin-top: 60px;
