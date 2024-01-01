@@ -264,7 +264,7 @@ const AboutUs = () => {
             <p className={`${styles.section_subtitle}`}>Galary</p>
             <h3 className={`${styles.section_title} mb-4`}>What We Make</h3>
             <div
-              className={`d-flex flex-column flex-lg-row p-0 m-0 px-lg-2 w-100 text-center`}
+              className={`d-flex flex-column flex-lg-row p-0 m-0 px-lg-2 w-100 text-center align-items-md-center align-items-lg-stretch`}
             >
               <div
                 className={`col-12 col-md-6 col-lg-3 pe-1 ${styles.gallery_sec_height} ${styles.column_small}`}

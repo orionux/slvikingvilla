@@ -99,8 +99,11 @@ const Testimonials = () => {
                 1024: {
                   slidesPerView: 3,
                 },
-                1920: {
+                1600: {
                   slidesPerView: 4,
+                },
+                2200: {
+                  slidesPerView: 5,
                 },
               }}
               onSwiper={(swiper) => console.log(swiper)}
