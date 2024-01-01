@@ -65,8 +65,17 @@ const AboutUs = () => {
                       alt=""
                       width={250}
                       height={120}
-                      className={ 'img-fluid position-absolute top-100 start-0 translate-middle ms-5 pb-5'}
+                      className={ 'img-fluid position-absolute top-100 start-0 translate-middle ms-5 pb-5 d-none d-lg-flex'}
                     />
+              <Image
+                      src={"/assests/images/icons/villablack.png"}
+                      alt=""
+                      width={200}
+                      height={100}
+                      className={ 'img-fluid position-absolute h-auto d-flex d-lg-none'}
+                      style={{ left: 10, bottom: -10 }}
+                      
+                    />      
               
 
               {/*
