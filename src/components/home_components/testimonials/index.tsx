@@ -96,7 +96,7 @@ const Testimonials = () => {
                 1024: {
                   slidesPerView: 3,
                 },
-                2000: {
+                1920: {
                   slidesPerView: 4,
                 },
               }}
