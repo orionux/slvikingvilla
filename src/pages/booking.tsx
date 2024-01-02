@@ -73,11 +73,15 @@ const Booking = () => {
             </div>
             
           </div>
+          
           {/* calander */}
           
           
+          
         </div>
+
         <Calendr />
+        
           </div>
           
         </div>

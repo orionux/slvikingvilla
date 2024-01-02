@@ -14,7 +14,7 @@ const onChange = () => {
 
     return (
         <div style={{ backgroundColor: "#B9983B" }}
-        className='col-12 col-lg-11 mt-0'>
+        className='col-12 col-lg-11 text-center mt-0 p-4'>
         <Calendar 
         onChange= {onChange}
         value= {date} 
