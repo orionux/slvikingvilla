@@ -17,7 +17,7 @@ const ContactDetails = () => {
                     </div>
                     <div className="d-flex flex-column justify-content-center px-3">
                         <p className='mb-0'>Locate Us</p>
-                        <span className='mb-0'>Riverside 25, San Francisco, California</span>
+                        <span className='mb-0'>No. 53/2, Keenagahalanda watta, Kalagedihena.</span>
                     </div>
                 </div>
             </div>
