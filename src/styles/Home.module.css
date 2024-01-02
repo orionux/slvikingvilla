@@ -308,6 +308,12 @@
   height: 30%;
 }
 
+@media screen and (max-width:992px) {
+  .availability_plan{
+    height: 60%;
+  } 
+}
+
 
 
 .imgGroupWrapper{
