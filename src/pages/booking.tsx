@@ -89,7 +89,7 @@ const Booking = () => {
         <div className="d-flex flex-column justify-content-center align-items-center px-2 px-lg-5 py-5 m-0 w-100">
           <div className="d-flex flex-column justify-content-center align-items-center p-0 p-lg-5 m-0 w-100">
             <h3 className={`${styles.section_title} mb-4`}>Our Facilities</h3>
-            <div className={`d-flex flex-column flex-lg-row p-0 m-0 px-lg-2 w-100 text-center`}>
+            <div className={`d-flex flex-column flex-lg-row p-0 m-0 px-lg-2 w-100 text-center align-items-md-center align-items-lg-stretch`}>
               <div className={`col-12 col-md-6 col-lg-3 pe-1 ${styles.gallery_sec_height} ${styles.column_small}`}>
               <Image
                   src={"/assests/images/gallery/whatwemake1.png"}
