@@ -1026,8 +1026,7 @@ width: 50% !important;
  transition: 0.6s ease;
 }
 .inactiveTabs:hover {
-  font-size: larger;
-  text-decoration: transparent;
+  font-size: none;
   text-decoration: none;
 }
 .inactiveTabs:focus {
@@ -1048,7 +1047,7 @@ width: 50% !important;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% + 2px);
-  height: 4px;
+  height: 3px;
   background: #DAC38A;
 }
 
