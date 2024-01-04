@@ -896,26 +896,6 @@ width: 50% !important;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Mobile */
 @media screen and (max-width: 600px) {
   .heroContainer{
@@ -937,8 +917,6 @@ width: 50% !important;
     width: 320px;
   }
 }
-
-
 
 /* trip plan */
 
@@ -968,26 +946,9 @@ width: 50% !important;
 .planButtons:hover{
   background: #B59841;
 }
-
-.planLink label {
-  padding: 0 5px;
-  text-decoration: none;
-  transition-duration: 0.6s;
-}
-
-
-.planLink label:hover,
-.planLink label:active,
-.planLink label:focus  {
-  text-decoration: underline 3px #DAC38A;
-  font-size: 23px;  
-}
-
 .planTopics {
-  text-decoration: underline 5px #DAC38A;
-  
+  text-decoration: underline 5px #DAC38A; 
 }
-
 .spangold {
   color: #B3905B;
 }

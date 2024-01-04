@@ -178,86 +178,6 @@ a {
   background-color: none;
 }
 
-/*tripplan*/
-.radioInputs input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-  position:fixed;
-}
-
-.wrapper {
-  width: 100%;
-  display: flex;
-}
-
-.slide {
-  width: 0;
-}
-
-.content {
-  width: 100vw; 
-}
-
-
-
-
-.wrapper {
-  margin: 0 auto;
-  background-color: #292E36;
-  box-shadow:none;
-  align-items: flex-start;
-  height:auto;
-}
-
-
-
-.content {
-  padding: 10px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity .6s;
-
-}
-
-.content1,
-.content2,
-.content3
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-  background-color: #292E36;
-}
-
-#i_1:checked ~ .wrapper .content1,
-#i_2:checked ~ .wrapper .content2,
-#i_3:checked ~ .wrapper .content3
- {
-  opacity: 1;
-  pointer-events:auto;
-}
-
-label {
-  color: grey;
-  transition-duration: .6s;
-  cursor:pointer;
-  position:sticky;
-
-}
-
-#i_1:checked ~ .controls label[for="i_1"],
-#i_2:checked ~ .controls label[for="i_2"],
-#i_3:checked ~ .controls label[for="i_3"]
-{
-  color: white;
-}
-
-.controls {
-  background-color: #292E36;
-}
-
-
 @media screen and (max-width:500px) {
   .step {
     min-height: 1em;
@@ -273,10 +193,7 @@ label {
     line-height: 1em;
     width: 3rem;
   }
-  .content {
-    padding-top: 10px;
-   
-  }
+
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
@@ -294,10 +211,7 @@ label {
     line-height: 1.5em;
     width: 4rem;
   }
-  .content {
-    padding-top: 10px;
-   
-  }
+
 }
 
 
