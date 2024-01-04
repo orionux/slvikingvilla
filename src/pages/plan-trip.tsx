@@ -53,9 +53,9 @@ const PlanTrip = () => {
   <div className={`${styles.planTrip} w-100 pt-4`}>
         
     <div className ={`${styles.blocTabs} d-flex justify-content-center gap-5`}>
-      <div className= {toggleState === 1 ?`${styles.Tabs} ${styles.activeTabs} `: `${styles.Tabs}` } onClick = {() => toggleTab(1)}> Plan 01 </div>
-      <div className= {toggleState === 2 ?`${styles.Tabs} ${styles.activeTabs} `: `${styles.Tabs}` } onClick = {() => toggleTab(2)}>Plan 02 </div>
-      <div className= {toggleState === 3 ?`${styles.Tabs} ${styles.activeTabs} `: `${styles.Tabs}` } onClick = {() => toggleTab(3)}>Plan 03 </div>
+      <div className= {toggleState === 1 ?`${styles.inactiveTabs} ${styles.activeTabs} `: `${styles.inactiveTabs}` } onClick = {() => toggleTab(1)}> Plan 01 </div>
+      <div className= {toggleState === 2 ?`${styles.inactiveTabs} ${styles.activeTabs} `: `${styles.inactiveTabs}` } onClick = {() => toggleTab(2)}>Plan 02 </div>
+      <div className= {toggleState === 3 ?`${styles.inactiveTabs} ${styles.activeTabs} `: `${styles.inactiveTabs}` } onClick = {() => toggleTab(3)}>Plan 03 </div>
     </div>
 
     <div className={`${styles.contentTabs}`}>
@@ -521,9 +521,9 @@ const PlanTrip = () => {
   </div>
 
       <div className='d-flex justify-content-center gap-2 pt-4'>
-        <div className= {toggleState === 1 ?`text-warning `: `text-white` } onClick = {() => toggleTab(1)}> <GoDotFill /></div>
-        <div className= {toggleState === 2 ?`text-warning `: `text-white`} onClick = {() => toggleTab(2)}> <GoDotFill /></div>
-        <div className= {toggleState === 3 ?`text-warning `: `text-white`} onClick = {() => toggleTab(3)}> <GoDotFill /></div>
+        <div className= {toggleState === 1 ? `text-white`: `${styles.inactiveDot}` } onClick = {() => toggleTab(1)}> <GoDotFill /></div>
+        <div className= {toggleState === 2 ? `text-white`: `${styles.inactiveDot}`} onClick = {() => toggleTab(2)}> <GoDotFill /></div>
+        <div className= {toggleState === 3 ? `text-white`: `${styles.inactiveDot}`} onClick = {() => toggleTab(3)}> <GoDotFill /></div>
       </div>
       
       <div className='text-center pt-5 mb-0 mb-lg-0 d-flex text-nowrap flex-column flex-md-row align-items-center justify-content-center'>

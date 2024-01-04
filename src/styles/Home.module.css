@@ -1020,25 +1020,36 @@ width: 50% !important;
  gap: 10px;
  cursor: pointer;
 }
-.Tabs {
+.inactiveTabs {
  background: #292E36;
- color: white;
+ color: #fff;
+ transition: 0.6s ease;
 }
-
+.inactiveTabs:hover {
+  font-size: larger;
+  text-decoration: transparent;
+  text-decoration: none;
+}
+.inactiveTabs:focus {
+  outline: none;
+}
 .activeTabs {
   background: #292E36;
-  border-bottom: 1px solid transparent;
+  color: white;
+  font-size: larger;
+  transform: translateY(-10%);
 }
+
 .activeTabs::after {
   content: "";
   display: block;
   position: relative;
-  bottom: -4px;
+  bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% + 2px);
   height: 4px;
-  background: gold;
+  background: #DAC38A;
 }
 
 
@@ -1055,4 +1066,8 @@ width: 50% !important;
 }
 .contentTabs {
   flex-grow: 1;
+}
+.inactiveDot {
+  color: gray;
+  cursor: pointer;
 }
