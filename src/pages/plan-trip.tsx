@@ -52,7 +52,7 @@ const PlanTrip = () => {
         </div>
   <div className={`${styles.planTrip} w-100 pt-4`}>
         
-    <div className ={`${styles.blocTabs} d-flex justify-content-center gap-5`}>
+    <div className ={`${styles.blocTabs} d-flex justify-content-center gap-5 mb-5`}>
       <div className= {toggleState === 1 ?`${styles.inactiveTabs} ${styles.activeTabs} `: `${styles.inactiveTabs}` } onClick = {() => toggleTab(1)}> Plan 01 </div>
       <div className= {toggleState === 2 ?`${styles.inactiveTabs} ${styles.activeTabs} `: `${styles.inactiveTabs}` } onClick = {() => toggleTab(2)}>Plan 02 </div>
       <div className= {toggleState === 3 ?`${styles.inactiveTabs} ${styles.activeTabs} `: `${styles.inactiveTabs}` } onClick = {() => toggleTab(3)}>Plan 03 </div>
@@ -76,7 +76,7 @@ const PlanTrip = () => {
             </div>
           </div>
 
-          <div className="col-11 col-lg-3 ">
+          <div className="col-11 col-lg-3 me-lg-5 ">
             <h3 className={`${styles.planTopics} pb-5`}>
               <Image src={'/assests/images/PlanTrip/plantopic.png'} alt="" height={20} width={20} className="" />
               Plan 01
@@ -91,7 +91,7 @@ const PlanTrip = () => {
             <Image src={'/assests/images/PlanTrip/vehicle.png'} alt="logo" width={100} height={20} />
           </div>
 
-          <div className="col-11 col-lg-5 d-flex justify-content-center align-items-center px-0 pt-5">
+          <div className="col-12 col-lg-5 d-flex justify-content-center align-items-center px-0 pt-5">
             <div className={`${styles.dayPlan} `}>
               <div className="step d-flex">
                 <div>
@@ -162,7 +162,7 @@ const PlanTrip = () => {
             </div>
           </div>
 
-          <div className='col-11 col-lg-3 pt-5 d-none d-lg-block'>
+          <div className='col-11 col-lg-3 pt-5 ms-lg-5 d-none d-lg-block'>
             <div className='position-relative'>
               <Image src={'/assests/images/PlanTrip/mapback.png'} className= {`${styles.positionBack} img-fluid`} alt="" width={250} height={250} />
               <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
@@ -197,7 +197,7 @@ const PlanTrip = () => {
                 </div>
               </div>
 
-            <div className="col-11 col-lg-3 ">
+            <div className="col-11 col-lg-3 me-lg-5 ">
               <h3 className={`${styles.planTopics} pb-5`}>
                 <Image src={'/assests/images/PlanTrip/plantopic.png'} alt="" height={20} width={20} className="" />
                 Plan 02
@@ -213,8 +213,8 @@ const PlanTrip = () => {
             </div>
 
 
-            <div className="col-11 col-lg-5 d-flex justify-content-center align-items-center px-0 pt-5">
-              <div className="">
+            <div className="col-12 col-lg-5 d-flex justify-content-center align-items-center px-0 pt-5">
+              <div className="pt-lg-5">
                 <div className="col-12 step d-flex">
                   <div>
                     <div className=" day ">1st-2nd Day</div>
@@ -306,7 +306,7 @@ const PlanTrip = () => {
               </div>
             </div>
 
-            <div className="col-11 col-lg-3 pt-5 d-none d-lg-block">
+            <div className="col-11 col-lg-3 pt-5 mt-lg-5 ms-lg-5 d-none d-lg-block">
               <div className="position-relative">
                 <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionBack} img-fluid`} alt="" width={250} height={250} />
                 <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
@@ -339,7 +339,7 @@ const PlanTrip = () => {
               </div>
             </div>
 
-          <div className="col-11 col-lg-3 ">
+          <div className="col-11 col-lg-3 me-lg-5 ">
             <h3 className={`${styles.planTopics} pb-5`}>
               <Image src={'/assests/images/PlanTrip/plantopic.png'} alt="" height={20} width={20} className="" />
                 Plan 03
@@ -355,8 +355,8 @@ const PlanTrip = () => {
           </div>
 
 
-        <div className="col-11 col-lg-5 d-flex justify-content-center align-items-center px-0 pt-5">
-          <div className="">
+        <div className="col-12 col-lg-5 d-flex justify-content-center align-items-center px-0 pt-5">
+          <div className="pt-lg-5">
             <div className="col-12 step d-flex">
               <div>
                 <div className=" day ">1st-2nd Day</div>
@@ -504,7 +504,7 @@ const PlanTrip = () => {
           </div>
         </div>
 
-        <div className="col-11 col-lg-3 pt-5 d-none d-lg-block">
+        <div className="col-11 col-lg-3 pt-5 mt-lg-5 ms-lg-5 d-none d-lg-block">
           <div className="position-relative">
             <Image src={'/assests/images/PlanTrip/mapback.png'} className={`${styles.positionBack} img-fluid`}alt="" width={250} height={250} />
             <Image src={'/assests/images/PlanTrip/sirilankawa.png'} className='img-fluid mx-auto d-block' alt="" width={300} height={600} />
