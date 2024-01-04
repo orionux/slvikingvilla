@@ -526,7 +526,7 @@ const PlanTrip = () => {
         <div className= {toggleState === 3 ? `text-white`: `${styles.inactiveDot}`} onClick = {() => toggleTab(3)}> <GoDotFill /></div>
       </div>
       
-      <div className='text-center pt-5 mb-0 mb-lg-0 d-flex text-nowrap flex-column flex-md-row align-items-center justify-content-center'>
+      <div className='text-center pt-5 mb-0 mb-lg-0 pb-5 d-flex text-nowrap flex-column flex-md-row align-items-center justify-content-center'>
         <button className={`text-center text-white ${styles.planButtons}`}>Start With This Plan</button>
         <button className={`text-center text-white ${styles.planButtons}`}>Make Custom Plan</button>
       </div>
