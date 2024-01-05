@@ -533,7 +533,7 @@ const PlanTrip = () => {
   </div>
 
     
-{/*
+
         <div
           className={`d-flex pb-5 bg-white w-100 justify-content-center align-items-center ${styles.availability_plan}`}
         >
@@ -590,7 +590,7 @@ const PlanTrip = () => {
             </div>
           </div>
         </div>
-  */}
+  
 </div>
 </>
   );
